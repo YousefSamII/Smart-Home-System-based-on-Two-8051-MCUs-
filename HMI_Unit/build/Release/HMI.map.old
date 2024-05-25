@@ -1,0 +1,422 @@
+LX51 LINKER/LOCATER V4.66.100.0                                                         04/24/2024  03:45:11  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.100.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\LX51.EXE .\BUILD\RELEASE\.OBJ\SRC\APP.O, .\BUILD\RELEASE\.OBJ\SRC\HAL\KEYPAD\KEYPAD.O, .\BUILD\RELEAS
+>> E\.OBJ\SRC\HAL\LCD\LCD.O, .\BUILD\RELEASE\.OBJ\SRC\MCAL\DELAY\DELAY.O, .\BUILD\RELEASE\.OBJ\SRC\MCAL\GPIO\GPIO.O, .\B
+>> UILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O, .\BUILD\RELEASE\.OBJ\SRC\MCAL\USART\USART.O, .\BUILD\RELEASE\.OBJ\SRC\TES
+>> T.O TO .\BUILD\RELEASE\HMI PRINT (.\build\Release\HMI.map) REMOVEUNUSED
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\BUILD\RELEASE\.OBJ\SRC\APP.O (APP)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\HAL\KEYPAD\KEYPAD.O (KEYPAD)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\HAL\LCD\LCD.O (LCD)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\DELAY\DELAY.O (DELAY)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\GPIO\GPIO.O (GPIO)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O (TIMER0)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\USART\USART.O (USART)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\TEST.O (TEST)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?CLDOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?CSTOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_INIT)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  .\BUILD\RELEASE\HMI (APP)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   0008BCH   CODE
+I:000000H   I:000000H   I:00007FH   000023H   DATA
+C:000000H   C:000000H   C:00FFFFH   00012CH   CONST
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  .\BUILD\RELEASE\HMI (APP)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H   000014H   00000DH   BYTE   UNIT     DATA           _DATA_GROUP_
+000015H   00001CH   000008H   BYTE   UNIT     DATA           ?DT?APP
+00001DH   000022H   000006H   BYTE   UNIT     DATA           ?DT?TIMER0
+000023H   000023H   000001H   BYTE   UNIT     IDATA          ?STACK
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
+000003H   00000AH   000008H   BYTE   UNIT     CODE           ?PR?_UART_SENDBYTE?USART
+00000BH   00000DH   000003H   BYTE   OFFS..   CODE           ?TIMER0?0000B
+00000EH   00031DH   000310H   BYTE   UNIT     CODE           ?PR?MAIN?APP
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  03:45:11  PAGE 2
+
+
+00031EH   00046DH   000150H   BYTE   UNIT     CODE           ?PR?KEYPAD_GETPRESSEDKEY?KEYPAD
+00046EH   000512H   0000A5H   BYTE   UNIT     CODE           ?PR?_GPIO_WRITEPIN?GPIO
+000513H   0005B5H   0000A3H   BYTE   UNIT     CODE           ?PR?_GPIO_READPIN?GPIO
+0005B6H   000641H   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+000642H   000697H   000056H   BYTE   UNIT     CODE           ?PR?TAKE_PASSWORD_FROM_USER?APP
+000698H   0006E6H   00004FH   BYTE   UNIT     CODE           ?C?LIB_CODE
+0006E7H   000726H   000040H   BYTE   UNIT     CODE           ?PR?_LCD_SENDCOMMAND?LCD
+000727H   000766H   000040H   BYTE   UNIT     CODE           ?PR?_LCD_DISPLAYCHARACTER?LCD
+000767H   000799H   000033H   BYTE   UNIT     CODE           ?PR?_SEND_PASSWORD?APP
+00079AH   0007C6H   00002DH   BYTE   UNIT     CODE           ?PR?_LCD_MOVECURSOR?LCD
+0007C7H   0007F0H   00002AH   BYTE   UNIT     CODE           ?PR?ALARM_MODE?APP
+0007F1H   000813H   000023H   BYTE   UNIT     CODE           ?PR?_LCD_DISPLAYSTRING?LCD
+000814H   000833H   000020H   BYTE   UNIT     CODE           ?PR?_MSDELAY?DELAY
+000834H   000853H   000020H   BYTE   UNIT     CODE           ?PR?_GPIO_WRITEPORT?GPIO
+000854H   00086DH   00001AH   BYTE   UNIT     CODE           ?PR?TIMER0_ISR?TIMER0
+00086EH   000883H   000016H   BYTE   UNIT     CODE           ?PR?LCD_INIT?LCD
+000884H   000895H   000012H   BYTE   UNIT     CODE           ?PR?_LCD_DISPLAYSTRINGROWCOLUMN?LCD
+000896H   0008A7H   000012H   BYTE   UNIT     CODE           ?PR?_UART_INIT?USART
+0008A8H   0008AFH   000008H   BYTE   UNIT     CODE           ?PR?UART_RECIEVEBYTE?USART
+0008B0H   0008B6H   000007H   BYTE   UNIT     CODE           ?C_INITSEG
+0008B7H   0008BBH   000005H   BYTE   UNIT     CODE           ?PR?LCD_CLEARSCREEN?LCD
+0008BCH   0009E7H   00012CH   BYTE   UNIT     CONST          ?CO?APP
+
+* * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
+   *DEL*:           00002BH   BYTE   UNIT     CODE           ?PR?_LCD_CGRAM?LCD
+   *DEL*:           000004H   BYTE   UNIT     DATA           ?DT?_LCD_CGRAM?LCD
+   *DEL*:           000010H   BYTE   UNIT     CODE           ?PR?_LCD_DISPLAYCUSTOMCHAR?LCD
+   *DEL*:           000054H   BYTE   UNIT     CODE           ?PR?_GPIO_SETUPPININPUT?GPIO
+   *DEL*:           000024H   BYTE   UNIT     CODE           ?PR?_GPIO_SETUPPORTINPUT?GPIO
+   *DEL*:           000027H   BYTE   UNIT     CODE           ?PR?_GPIO_READPORT?GPIO
+   *DEL*:           000010H   BYTE   UNIT     CODE           ?PR?TIMER0_INIT?TIMER0
+   *DEL*:           000020H   BYTE   UNIT     CODE           ?PR?_UART_SENDSTRING?USART
+   *DEL*:           000003H   BYTE   UNIT     DATA           ?DT?_UART_SENDSTRING?USART
+   *DEL*:           00004FH   BYTE   UNIT     CODE           ?PR?_UART_RECEIVESTRING?USART
+   *DEL*:           000003H   BYTE   UNIT     DATA           ?DT?_UART_RECEIVESTRING?USART
+
+
+
+OVERLAY MAP OF MODULE:   .\BUILD\RELEASE\HMI (APP)
+
+
+FUNCTION/MODULE                       BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE           START  STOP  START  STOP
+=============================================================
+TIMER0_ISR/TIMER0                    ----- -----  ----- -----
+
+*** NEW ROOT ***********************
+
+?C_C51STARTUP                        ----- -----  ----- -----
+  +--> MAIN/APP
+  +--> ?C_INITSEG
+
+MAIN/APP                             ----- -----  0008H 000CH
+  +--> LCD_INIT/LCD
+  +--> _UART_INIT/USART
+  +--> _LCD_DISPLAYSTRING/LCD
+  +--> _LCD_MOVECURSOR/LCD
+  +--> _MSDELAY/DELAY
+  +--> _UART_SENDBYTE/USART
+  +--> UART_RECIEVEBYTE/USART
+  +--> LCD_CLEARSCREEN/LCD
+  +--> _LCD_DISPLAYSTRINGROWCOLUMN/LCD
+  +--> KEYPAD_GETPRESSEDKEY/KEYPAD
+  +--> TAKE_PASSWORD_FROM_USER/APP
+  +--> _SEND_PASSWORD/APP
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  03:45:11  PAGE 3
+
+
+  +--> _LCD_DISPLAYCHARACTER/LCD
+  +--> ALARM_MODE/APP
+
+LCD_INIT/LCD                         ----- -----  ----- -----
+  +--> _MSDELAY/DELAY
+  +--> _LCD_SENDCOMMAND/LCD
+
+_MSDELAY/DELAY                       ----- -----  ----- -----
+
+_LCD_SENDCOMMAND/LCD                 ----- -----  0011H 0011H
+  +--> _GPIO_WRITEPIN/GPIO
+  +--> _MSDELAY/DELAY
+  +--> _GPIO_WRITEPORT/GPIO
+
+_GPIO_WRITEPIN/GPIO                  ----- -----  ----- -----
+
+_GPIO_WRITEPORT/GPIO                 ----- -----  ----- -----
+
+_UART_INIT/USART                     ----- -----  ----- -----
+
+_LCD_DISPLAYSTRING/LCD               ----- -----  0010H 0013H
+  +--> _LCD_DISPLAYCHARACTER/LCD
+
+_LCD_DISPLAYCHARACTER/LCD            ----- -----  0014H 0014H
+  +--> _GPIO_WRITEPIN/GPIO
+  +--> _MSDELAY/DELAY
+  +--> _GPIO_WRITEPORT/GPIO
+
+_LCD_MOVECURSOR/LCD                  ----- -----  0010H 0010H
+  +--> _LCD_SENDCOMMAND/LCD
+
+_UART_SENDBYTE/USART                 ----- -----  ----- -----
+
+UART_RECIEVEBYTE/USART               ----- -----  ----- -----
+
+LCD_CLEARSCREEN/LCD                  ----- -----  ----- -----
+  +--> _LCD_SENDCOMMAND/LCD
+
+_LCD_DISPLAYSTRINGROWCOLUMN/LCD      ----- -----  000DH 000FH
+  +--> _LCD_MOVECURSOR/LCD
+  +--> _LCD_DISPLAYSTRING/LCD
+
+KEYPAD_GETPRESSEDKEY/KEYPAD          ----- -----  ----- -----
+  +--> _GPIO_WRITEPIN/GPIO
+  +--> _GPIO_READPIN/GPIO
+
+_GPIO_READPIN/GPIO                   ----- -----  ----- -----
+
+TAKE_PASSWORD_FROM_USER/APP          ----- -----  ----- -----
+  +--> KEYPAD_GETPRESSEDKEY/KEYPAD
+  +--> _LCD_DISPLAYCHARACTER/LCD
+  +--> _MSDELAY/DELAY
+  +--> _LCD_MOVECURSOR/LCD
+
+_SEND_PASSWORD/APP                   ----- -----  000DH 000FH
+  +--> _UART_SENDBYTE/USART
+  +--> _MSDELAY/DELAY
+
+ALARM_MODE/APP                       ----- -----  ----- -----
+  +--> LCD_CLEARSCREEN/LCD
+  +--> _LCD_DISPLAYSTRING/LCD
+  +--> _MSDELAY/DELAY
+
+?C_INITSEG                           ----- -----  ----- -----
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  03:45:11  PAGE 4
+
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\BUILD\RELEASE\HMI (APP)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+      01000698H   CODE     ---       ?C?CLDOPTR
+      00000000H   NUMBER   ---       ?C?CODESEG
+      010006C5H   CODE     ---       ?C?CSTOPTR
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      010005FDH   CODE     ---       ?C_START
+      01000000H   CODE     ---       ?C_STARTUP
+      01000513H   CODE     ---       _GPIO_readPin
+*DEL*:00000000H   CODE     ---       _GPIO_readPort
+*DEL*:00000000H   CODE     ---       _GPIO_setupPinInput
+*DEL*:00000000H   CODE     ---       _GPIO_setupPortInput
+      0100046EH   CODE     ---       _GPIO_writePin
+      01000834H   CODE     ---       _GPIO_writePort
+*DEL*:00000000H   CODE     ---       _LCD_CGRAM
+      01000727H   CODE     ---       _LCD_displayCharacter
+*DEL*:00000000H   CODE     ---       _LCD_displayCustomChar
+      010007F1H   CODE     ---       _LCD_displayString
+      01000884H   CODE     ---       _LCD_displayStringRowColumn
+      0100079AH   CODE     ---       _LCD_moveCursor
+      010006E7H   CODE     ---       _LCD_sendCommand
+      01000814H   CODE     ---       _MSdelay
+      0100076DH   CODE     ---       _send_password
+      01000896H   CODE     ---       _UART_init
+*DEL*:00000000H   CODE     ---       _UART_receiveString
+      01000003H   CODE     ---       _UART_sendByte
+*DEL*:00000000H   CODE     ---       _UART_sendString
+      010007C7H   CODE     ---       Alarm_mode
+      0000001DH   DATA     WORD      DutyCycle
+      0000001CH   DATA     BYTE      i
+      0100031EH   CODE     ---       KEYPAD_getPressedKey
+      010008B7H   CODE     ---       LCD_clearScreen
+      0100086EH   CODE     ---       LCD_init
+      0100000EH   CODE     ---       main
+      00000015H   DATA     BYTE      MultiUsedCounter
+      0000001FH   DATA     WORD      OFF_Period
+      00000021H   DATA     WORD      ON_Period
+      00000016H   DATA     BYTE      pageNumber
+      00000017H   DATA     ---       PasswordBuff
+      01000642H   CODE     ---       take_password_from_user
+*DEL*:00000000H   CODE     ---       Timer0_init
+      01000854H   CODE     ---       Timer0_ISR
+      010008A8H   CODE     ---       UART_recieveByte
+
+
+
+SYMBOL TABLE OF MODULE:  .\BUILD\RELEASE\HMI (APP)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       APP
+      0000001CH   PUBLIC    DATA     BYTE      i
+      00000017H   PUBLIC    DATA     ---       PasswordBuff
+      00000016H   PUBLIC    DATA     BYTE      pageNumber
+      00000015H   PUBLIC    DATA     BYTE      MultiUsedCounter
+      01000642H   PUBLIC    CODE     ---       take_password_from_user
+      010007C7H   PUBLIC    CODE     ---       Alarm_mode
+      0100076DH   PUBLIC    CODE     ---       _send_password
+      0100000EH   PUBLIC    CODE     ---       main
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  03:45:11  PAGE 5
+
+
+      0100000EH   BLOCK     CODE     ---       LVL=0
+      0100000EH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000008H   SYMBOL    DATA     VOID      NumberOfTries
+      00000009H   SYMBOL    DATA     VOID      PasswordCorrectnessFlag
+      0000000AH   SYMBOL    DATA     VOID      DoorState
+      0000000BH   SYMBOL    DATA     VOID      PasswordsMatchingFlag
+      0000000CH   SYMBOL    DATA     VOID      PasswordSetFlag
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000767H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100076DH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010007C7H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000642H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       KEYPAD
+      0100031EH   PUBLIC    CODE     ---       KEYPAD_getPressedKey
+
+      0100031EH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       LCD
+      010008B7H   PUBLIC    CODE     ---       LCD_clearScreen
+      01000884H   PUBLIC    CODE     ---       _LCD_displayStringRowColumn
+      0100079AH   PUBLIC    CODE     ---       _LCD_moveCursor
+      010007F1H   PUBLIC    CODE     ---       _LCD_displayString
+      01000727H   PUBLIC    CODE     ---       _LCD_displayCharacter
+      010006E7H   PUBLIC    CODE     ---       _LCD_sendCommand
+      0100086EH   PUBLIC    CODE     ---       LCD_init
+
+      0100086EH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010006E7H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000727H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010007F1H   BLOCK     CODE     ---       LVL=0
+      010007F7H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000013H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100079AH   BLOCK     CODE     ---       LVL=0
+      0100079AH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000010H   SYMBOL    DATA     VOID      lcd_memory_address
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000884H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010008B7H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       DELAY
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  03:45:11  PAGE 6
+
+
+      01000814H   PUBLIC    CODE     ---       _MSdelay
+
+      01000814H   BLOCK     CODE     ---       LVL=0
+      01000814H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000004H   SYMBOL    DATA     VOID      i
+      00000002H   SYMBOL    DATA     VOID      j
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       GPIO
+      01000834H   PUBLIC    CODE     ---       _GPIO_writePort
+      01000513H   PUBLIC    CODE     ---       _GPIO_readPin
+      0100046EH   PUBLIC    CODE     ---       _GPIO_writePin
+
+      0100046EH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000513H   BLOCK     CODE     ---       LVL=0
+      01000513H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000004H   SYMBOL    DATA     VOID      pin_value
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000834H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+      00000006H   SYMBOL    DATA     VOID      value
+
+      ---         MODULE    ---      ---       TIMER0
+      00000021H   PUBLIC    DATA     WORD      ON_Period
+      0000001FH   PUBLIC    DATA     WORD      OFF_Period
+      0000001DH   PUBLIC    DATA     WORD      DutyCycle
+      01000854H   PUBLIC    CODE     ---       Timer0_ISR
+
+      01000854H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       USART
+      010008A8H   PUBLIC    CODE     ---       UART_recieveByte
+      01000003H   PUBLIC    CODE     ---       _UART_sendByte
+      01000896H   PUBLIC    CODE     ---       _UART_init
+
+      01000896H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000003H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010008A8H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+      00000006H   SYMBOL    DATA     VOID      i
+      00000006H   SYMBOL    DATA     VOID      i
+
+      ---         MODULE    ---      ---       TEST
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+      01000000H   PUBLIC    CODE     ---       ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C?CLDOPTR
+      01000698H   PUBLIC    CODE     ---       ?C?CLDOPTR
+
+      ---         MODULE    ---      ---       ?C?CSTOPTR
+      010006C5H   PUBLIC    CODE     ---       ?C?CSTOPTR
+
+      ---         MODULE    ---      ---       ?C_INIT
+      010005FDH   PUBLIC    CODE     ---       ?C_START
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  03:45:11  PAGE 7
+
+
+
+
+
+*** WARNING L25: DATA TYPES DIFFERENT
+    SYMBOL:  KEYPAD_getPressedKey
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\APP.O (APP)
+   DEFINED:  .\BUILD\RELEASE\.OBJ\SRC\HAL\KEYPAD\KEYPAD.O (KEYPAD)
+
+Program Size: data=36.0 xdata=0 const=300 code=2236
+LX51 RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

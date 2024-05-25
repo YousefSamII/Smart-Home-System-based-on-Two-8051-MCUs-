@@ -1,0 +1,1 @@
+.\build\Release\.obj\src\APP.o,.\build\Release\.obj\src\HAL\KEYPAD\keypad.o,.\build\Release\.obj\src\HAL\LCD\lcd.o,.\build\Release\.obj\src\MCAL\DELAY\delay.o,.\build\Release\.obj\src\MCAL\GPIO\gpio.o,.\build\Release\.obj\src\MCAL\TIMER0\timer0.o,.\build\Release\.obj\src\MCAL\USART\usart.o,.\build\Release\.obj\src\test.o

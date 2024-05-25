@@ -1,0 +1,1263 @@
+[2024-04-13 18:29:40]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\build\Release\HMI.lnp" .\build\Release\.obj\src\APP.o,.\build\Release\.obj\src\HAL\KEYPAD\keypad.o,.\build\Release\.obj\src\HAL\LCD\lcd.o,.\build\Release\.obj\src\MCAL\DELAY\delay.o,.\build\Release\.obj\src\MCAL\GPIO\gpio.o,.\build\Release\.obj\src\MCAL\TIMER0\timer0.o,.\build\Release\.obj\src\MCAL\USART\usart.o,.\build\Release\.obj\src\test.o TO .\build\Release\HMI
+PRINT(.\build\Release\HMI.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  OFF_Period
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O (TIMER0)
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ON_Period
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O (TIMER0)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ON_Period
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O (TIMER0)
+    ADDRESS: 1000B1BH
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ON_Period
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O (TIMER0)
+    ADDRESS: 1000B1FH
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  OFF_Period
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O (TIMER0)
+    ADDRESS: 1000B24H
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  OFF_Period
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O (TIMER0)
+    ADDRESS: 1000B28H
+
+Program Size: data=62.0 xdata=0 const=316 code=2935
+LX51 RUN COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+
+[2024-04-13 18:31:25]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\MCAL\TIMER0\timer0.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\MCAL\TIMER0\timer0.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\MCAL\TIMER0\timer0.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/KEYPAD;src/HAL/LCD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\MCAL\TIMER0\timer0.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 32 OF .\SRC\MCAL\TIMER0\TIMER0.C: 'ON_Period': undefined identifier
+*** ERROR C202 IN LINE 33 OF .\SRC\MCAL\TIMER0\TIMER0.C: 'ON_Period': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\SRC\MCAL\TIMER0\TIMER0.C: 'OFF_Period': undefined identifier
+*** ERROR C202 IN LINE 38 OF .\SRC\MCAL\TIMER0\TIMER0.C: 'OFF_Period': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2024-04-13 18:32:46]	[done]
+	build successfully !
+
+[2024-04-13 18:32:55]	[done]
+	build successfully !
+
+[2024-04-13 18:34:27]	[done]
+	build successfully !
+
+[2024-04-13 18:36:30]	[done]
+	build successfully !
+
+[2024-04-13 18:37:31]	[done]
+	build successfully !
+
+[2024-04-13 18:38:08]	[done]
+	build successfully !
+
+[2024-04-13 18:39:08]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\LCD\lcd.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\LCD\lcd.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\LCD\lcd.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/KEYPAD;src/HAL/LCD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\LCD\lcd.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C206 IN LINE 79 OF .\SRC\HAL\LCD\LCD.C: 'GPIO_WritePort': missing function-prototype
+*** ERROR C267 IN LINE 79 OF .\SRC\HAL\LCD\LCD.C: 'GPIO_WritePort': requires ANSI-style prototype
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 18:39:15]	[done]
+	build successfully !
+
+[2024-04-13 18:39:18]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\LCD\lcd.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\LCD\lcd.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\LCD\lcd.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/KEYPAD;src/HAL/LCD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\LCD\lcd.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C206 IN LINE 79 OF .\SRC\HAL\LCD\LCD.C: 'GPIO_WritePort': missing function-prototype
+*** ERROR C267 IN LINE 79 OF .\SRC\HAL\LCD\LCD.C: 'GPIO_WritePort': requires ANSI-style prototype
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 18:39:34]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\LCD\lcd.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\LCD\lcd.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\LCD\lcd.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/KEYPAD;src/HAL/LCD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\LCD\lcd.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C206 IN LINE 80 OF .\SRC\HAL\LCD\LCD.C: '_Delay_ms': missing function-prototype
+*** ERROR C267 IN LINE 80 OF .\SRC\HAL\LCD\LCD.C: '_Delay_ms': requires ANSI-style prototype
+*** ERROR C208 IN LINE 81 OF .\SRC\HAL\LCD\LCD.C: '_GPIO_writePort': too many actual parameters
+*** ERROR C141 IN LINE 119 OF .\SRC\HAL\LCD\LCD.C: syntax error near 'data', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  3 ERROR(S)
+
+[2024-04-13 18:40:41]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\LCD\lcd.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\LCD\lcd.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\LCD\lcd.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\LCD\lcd.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C206 IN LINE 80 OF .\SRC\HAL\LCD\LCD.C: '_Delay_ms': missing function-prototype
+*** ERROR C267 IN LINE 80 OF .\SRC\HAL\LCD\LCD.C: '_Delay_ms': requires ANSI-style prototype
+*** ERROR C208 IN LINE 81 OF .\SRC\HAL\LCD\LCD.C: '_GPIO_writePort': too many actual parameters
+*** ERROR C141 IN LINE 119 OF .\SRC\HAL\LCD\LCD.C: syntax error near 'data', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  3 ERROR(S)
+
+[2024-04-13 18:41:27]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\LCD\lcd.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\LCD\lcd.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\LCD\lcd.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\LCD\lcd.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C208 IN LINE 81 OF .\SRC\HAL\LCD\LCD.C: '_GPIO_writePort': too many actual parameters
+*** ERROR C141 IN LINE 119 OF .\SRC\HAL\LCD\LCD.C: syntax error near 'data', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2024-04-13 18:42:30]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\LCD\lcd.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\LCD\lcd.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\LCD\lcd.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\LCD\lcd.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C206 IN LINE 80 OF .\SRC\HAL\LCD\LCD.C: '_Delay_ms': missing function-prototype
+*** ERROR C267 IN LINE 80 OF .\SRC\HAL\LCD\LCD.C: '_Delay_ms': requires ANSI-style prototype
+*** ERROR C141 IN LINE 119 OF .\SRC\HAL\LCD\LCD.C: syntax error near 'data', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  2 ERROR(S)
+
+[2024-04-13 18:42:38]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\LCD\lcd.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\LCD\lcd.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\LCD\lcd.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\LCD\lcd.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 119 OF .\SRC\HAL\LCD\LCD.C: syntax error near 'data', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 18:43:07]	[done]
+	build successfully !
+
+[2024-04-13 19:01:22]	[done]
+	build successfully !
+
+[2024-04-13 19:03:07]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 167 OF .\SRC\APP.C: syntax error near 'if', expected 'while'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 19:03:18]	[done]
+	build successfully !
+
+[2024-04-13 19:03:37]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 167 OF .\SRC\APP.C: syntax error near 'if', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 19:03:49]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 167 OF .\SRC\APP.C: syntax error near 'if', expected 'while'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 19:05:49]	[done]
+	build successfully !
+
+[2024-04-13 19:09:14]	[done]
+	build successfully !
+
+[2024-04-13 19:10:58]	[done]
+	build successfully !
+
+[2024-04-13 19:12:49]	[done]
+	build successfully !
+
+[2024-04-13 19:13:58]	[done]
+	build successfully !
+
+[2024-04-13 19:15:27]	[done]
+	build successfully !
+
+[2024-04-13 19:16:06]	[done]
+	build successfully !
+
+[2024-04-13 19:16:31]	[done]
+	build successfully !
+
+[2024-04-13 19:17:15]	[done]
+	build successfully !
+
+[2024-04-13 19:17:56]	[done]
+	build successfully !
+
+[2024-04-13 19:18:58]	[done]
+	build successfully !
+
+[2024-04-13 19:20:26]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 317 OF .\SRC\APP.C: syntax error near 'int', expected '__asm'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 19:20:34]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 317 OF .\SRC\APP.C: syntax error near 'uint8', expected '__asm'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 19:20:50]	[done]
+	build successfully !
+
+[2024-04-13 19:21:54]	[done]
+	build successfully !
+
+[2024-04-13 19:23:15]	[done]
+	build successfully !
+
+[2024-04-13 19:23:30]	[done]
+	build successfully !
+
+[2024-04-13 19:24:28]	[done]
+	build successfully !
+
+[2024-04-13 19:24:35]	[done]
+	build successfully !
+
+[2024-04-13 19:25:39]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 226 OF .\SRC\APP.C: syntax error near 's', expected ','
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-13 19:25:43]	[done]
+	build successfully !
+
+[2024-04-13 19:26:34]	[done]
+	build successfully !
+
+[2024-04-13 19:28:01]	[done]
+	build successfully !
+
+[2024-04-13 19:29:24]	[done]
+	build successfully !
+
+[2024-04-13 19:29:50]	[done]
+	build successfully !
+
+[2024-04-13 19:30:28]	[done]
+	build successfully !
+
+[2024-04-13 19:30:38]	[done]
+	build successfully !
+
+[2024-04-13 19:31:42]	[done]
+	build successfully !
+
+[2024-04-13 19:31:52]	[done]
+	build successfully !
+
+[2024-04-13 19:32:26]	[done]
+	build successfully !
+
+[2024-04-13 19:33:12]	[done]
+	build successfully !
+
+[2024-04-13 19:34:43]	[done]
+	build successfully !
+
+[2024-04-13 19:36:21]	[done]
+	build successfully !
+
+[2024-04-13 19:37:23]	[done]
+	build successfully !
+
+[2024-04-13 19:38:31]	[done]
+	build successfully !
+
+[2024-04-13 19:38:50]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\build\Release\HMI.lnp" .\build\Release\.obj\src\APP.o,.\build\Release\.obj\src\HAL\KEYPAD\keypad.o,.\build\Release\.obj\src\HAL\LCD\lcd.o,.\build\Release\.obj\src\MCAL\DELAY\delay.o,.\build\Release\.obj\src\MCAL\GPIO\gpio.o,.\build\Release\.obj\src\MCAL\TIMER0\timer0.o,.\build\Release\.obj\src\MCAL\USART\usart.o,.\build\Release\.obj\src\test.o TO .\build\Release\HMI
+PRINT(.\build\Release\HMI.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_intgerToString
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\APP.O (APP)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_intgerToString
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\APP.O (APP)
+    ADDRESS: 1000221H
+
+Program Size: data=52.0 xdata=0 const=300 code=2119
+LX51 RUN COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+
+[2024-04-13 19:39:41]	[done]
+	build successfully !
+
+[2024-04-13 19:46:09]	[done]
+	build successfully !
+
+[2024-04-16 12:06:00]	[done]
+	build successfully !
+
+[2024-04-23 10:49:58]	[done]
+	build successfully !
+
+[2024-04-23 11:59:33]	[done]
+	build successfully !
+
+[2024-04-23 12:00:29]	[done]
+	build successfully !
+
+[2024-04-23 12:02:23]	[done]
+	build successfully !
+
+[2024-04-23 12:03:19]	[done]
+	build successfully !
+
+[2024-04-23 12:05:29]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 61 OF .\SRC\APP.C: syntax error near '^', expected '='
+*** ERROR C202 IN LINE 61 OF .\SRC\APP.C: 'LED': undefined identifier
+*** ERROR C202 IN LINE 72 OF .\SRC\APP.C: 'LED': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2024-04-23 12:06:29]	[done]
+	build successfully !
+
+[2024-04-23 12:09:04]	[done]
+	build successfully !
+
+[2024-04-23 12:12:54]	[done]
+	build successfully !
+
+[2024-04-23 12:16:48]	[done]
+	build successfully !
+
+[2024-04-23 12:20:14]	[done]
+	build successfully !
+
+[2024-04-23 12:24:23]	[done]
+	build successfully !
+
+[2024-04-23 12:26:38]	[done]
+	build successfully !
+
+[2024-04-23 12:28:33]	[done]
+	build successfully !
+
+[2024-04-23 12:28:43]	[done]
+	build successfully !
+
+[2024-04-23 12:31:33]	[done]
+	build successfully !
+
+[2024-04-23 12:32:42]	[done]
+	build successfully !
+
+[2024-04-23 12:32:49]	[done]
+	build successfully !
+
+[2024-04-23 12:34:57]	[done]
+	build successfully !
+
+[2024-04-23 12:36:31]	[done]
+	build successfully !
+
+[2024-04-23 12:39:14]	[done]
+	build successfully !
+
+[2024-04-23 12:41:51]	[done]
+	build successfully !
+
+[2024-04-23 12:56:06]	[done]
+	build successfully !
+
+[2024-04-23 12:57:00]	[done]
+	build successfully !
+
+[2024-04-23 12:57:53]	[done]
+	build successfully !
+
+[2024-04-23 12:59:04]	[done]
+	build successfully !
+
+[2024-04-23 12:59:34]	[done]
+	build successfully !
+
+[2024-04-23 14:25:06]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 67 OF .\SRC\APP.C: syntax error near 'uint8', expected '__asm'
+*** ERROR C202 IN LINE 67 OF .\SRC\APP.C: 'x': undefined identifier
+*** ERROR C202 IN LINE 70 OF .\SRC\APP.C: 'x': undefined identifier
+*** ERROR C202 IN LINE 71 OF .\SRC\APP.C: 'x': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2024-04-23 14:25:24]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 67 OF .\SRC\APP.C: syntax error near 'unsigned', expected '__asm'
+*** ERROR C202 IN LINE 67 OF .\SRC\APP.C: 'x': undefined identifier
+*** ERROR C202 IN LINE 70 OF .\SRC\APP.C: 'x': undefined identifier
+*** ERROR C202 IN LINE 71 OF .\SRC\APP.C: 'x': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2024-04-23 14:26:03]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 67 OF .\SRC\APP.C: syntax error near 'uint8', expected '__asm'
+*** ERROR C202 IN LINE 67 OF .\SRC\APP.C: 'x': undefined identifier
+*** ERROR C202 IN LINE 70 OF .\SRC\APP.C: 'x': undefined identifier
+*** ERROR C202 IN LINE 71 OF .\SRC\APP.C: 'x': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2024-04-23 14:26:24]	[done]
+	build successfully !
+
+[2024-04-23 14:26:35]	[done]
+	build successfully !
+
+[2024-04-23 14:34:25]	[done]
+	build successfully !
+
+[2024-04-23 14:37:17]	[done]
+	build successfully !
+
+[2024-04-23 14:38:24]	[done]
+	build successfully !
+
+[2024-04-23 14:42:25]	[done]
+	build successfully !
+
+[2024-04-23 14:45:47]	[done]
+	build successfully !
+
+[2024-04-23 14:47:32]	[done]
+	build successfully !
+
+[2024-04-23 14:50:11]	[done]
+	build successfully !
+
+[2024-04-23 15:03:51]	[done]
+	build successfully !
+
+[2024-04-23 15:04:22]	[done]
+	build successfully !
+
+[2024-04-23 15:05:14]	[done]
+	build successfully !
+
+[2024-04-23 15:10:19]	[done]
+	build successfully !
+
+[2024-04-23 15:32:41]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\KEYPAD\keypad.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\KEYPAD\keypad.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\KEYPAD\keypad.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\KEYPAD\keypad.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C242 IN LINE 20 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'array[]': too many initializers
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-23 15:34:19]	[done]
+	build successfully !
+
+[2024-04-23 15:34:51]	[done]
+	build successfully !
+
+[2024-04-23 15:35:24]	[done]
+	build successfully !
+
+[2024-04-23 15:36:28]	[done]
+	build successfully !
+
+[2024-04-23 15:37:14]	[done]
+	build successfully !
+
+[2024-04-23 15:37:58]	[done]
+	build successfully !
+
+[2024-04-23 15:38:45]	[done]
+	build successfully !
+
+[2024-04-23 15:39:07]	[done]
+	build successfully !
+
+[2024-04-23 15:39:43]	[done]
+	build successfully !
+
+[2024-04-23 15:41:05]	[done]
+	build successfully !
+
+[2024-04-23 15:41:12]	[done]
+	build successfully !
+
+[2024-04-23 15:53:39]	[done]
+	build successfully !
+
+[2024-04-23 15:55:01]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\KEYPAD\keypad.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\KEYPAD\keypad.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\KEYPAD\keypad.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\KEYPAD\keypad.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C242 IN LINE 20 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'array[]': too many initializers
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-23 16:01:20]	[done]
+	build successfully !
+
+[2024-04-23 16:15:02]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 72 OF .\SRC\APP.C: syntax error near 'unsigned', expected '__asm'
+*** ERROR C202 IN LINE 72 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C141 IN LINE 75 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 76 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 77 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 78 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 80 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 80 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 81 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 81 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 82 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 82 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 83 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 83 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C141 IN LINE 85 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 86 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 87 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 88 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 90 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 90 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 91 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 91 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 92 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 92 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 93 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 93 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C141 IN LINE 95 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 96 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 97 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 98 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 100 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 100 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 101 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 101 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 102 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 102 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 103 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 103 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C141 IN LINE 105 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 106 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 107 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 108 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 110 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 110 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 111 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 111 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 112 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 112 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 113 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 113 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C202 IN LINE 115 OF .\SRC\APP.C: 'pressedKey': undefined identifier
+*** ERROR C141 IN LINE 115 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 116 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 116 OF .\SRC\APP.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  54 ERROR(S)
+
+[2024-04-23 16:15:16]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 76 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 77 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 78 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 79 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 81 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 82 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 83 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 84 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 86 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 87 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 88 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 89 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 91 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 92 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 93 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 94 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 96 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 97 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 98 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 99 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 101 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 102 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 103 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 104 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 106 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 107 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 108 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 109 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 111 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 112 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 113 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 114 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 116 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  35 ERROR(S)
+
+[2024-04-23 16:15:27]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 76 OF .\SRC\APP.C: 'P20': undefined identifier
+*** ERROR C202 IN LINE 77 OF .\SRC\APP.C: 'P21': undefined identifier
+*** ERROR C202 IN LINE 78 OF .\SRC\APP.C: 'P22': undefined identifier
+*** ERROR C202 IN LINE 79 OF .\SRC\APP.C: 'P23': undefined identifier
+*** ERROR C202 IN LINE 81 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 82 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 83 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 84 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 86 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 87 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 88 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 89 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 91 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 92 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 93 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 94 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 96 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 97 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 98 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 99 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 101 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 102 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 103 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 104 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 106 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 107 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 108 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 109 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 111 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 112 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 113 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 114 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 116 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  35 ERROR(S)
+
+[2024-04-23 16:16:09]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 76 OF .\SRC\APP.C: syntax error near '.0', expected ';'
+*** ERROR C141 IN LINE 77 OF .\SRC\APP.C: syntax error near '.1', expected ';'
+*** ERROR C141 IN LINE 78 OF .\SRC\APP.C: syntax error near '.2', expected ';'
+*** ERROR C141 IN LINE 79 OF .\SRC\APP.C: syntax error near '.3', expected ';'
+*** ERROR C202 IN LINE 81 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 82 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 83 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 84 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 86 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 87 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 88 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 89 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 91 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 92 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 93 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 94 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 96 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 97 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 98 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 99 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 101 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 102 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 103 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 104 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 106 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 107 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 108 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 109 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 111 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 112 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 113 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 114 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 116 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  35 ERROR(S)
+
+[2024-04-23 16:16:43]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 76 OF .\SRC\APP.C: 'P20': undefined identifier
+*** ERROR C202 IN LINE 77 OF .\SRC\APP.C: 'P21': undefined identifier
+*** ERROR C202 IN LINE 78 OF .\SRC\APP.C: 'P22': undefined identifier
+*** ERROR C202 IN LINE 79 OF .\SRC\APP.C: 'P23': undefined identifier
+*** ERROR C202 IN LINE 81 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 82 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 83 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 84 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 86 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 87 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 88 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 89 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 91 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 92 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 93 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 94 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 96 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 97 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 98 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 99 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 101 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 102 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 103 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 104 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 106 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 107 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 108 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 109 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 111 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 112 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 113 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 114 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 116 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  35 ERROR(S)
+
+[2024-04-23 16:16:56]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 76 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 77 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 78 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 79 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 81 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 82 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 83 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 84 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 86 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 87 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 88 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 89 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 91 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 92 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 93 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 94 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 96 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 97 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 98 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 99 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 101 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 102 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 103 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 104 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 106 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 107 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 108 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 109 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 111 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 112 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 113 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 114 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 116 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  35 ERROR(S)
+
+[2024-04-23 16:17:17]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 76 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 77 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 78 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 79 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 81 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 82 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 83 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 84 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 86 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 87 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 88 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 89 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 91 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 92 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 93 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 94 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 96 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 97 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 98 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 99 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 101 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 102 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 103 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 104 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 106 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 107 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 108 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 109 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C202 IN LINE 111 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 112 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 113 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C202 IN LINE 114 OF .\SRC\APP.C: 'p2': undefined identifier
+*** ERROR C141 IN LINE 116 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '=', expected ';'
+*** ERROR C141 IN LINE 117 OF .\SRC\APP.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  35 ERROR(S)
+
+[2024-04-23 16:17:39]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 30 OF .\SRC\APP.C: syntax error near '*', expected ')'
+*** ERROR C129 IN LINE 48 OF .\SRC\APP.C: missing ';' before 'MultiUsedCounter'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2024-04-23 16:48:39]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 70 OF .\SRC\APP.C: syntax error near '=', expected 'sizeof'
+*** ERROR C141 IN LINE 70 OF .\SRC\APP.C: syntax error near '&&', expected '__asm'
+*** ERROR C141 IN LINE 70 OF .\SRC\APP.C: syntax error near ')', expected ';'
+*** ERROR C141 IN LINE 74 OF .\SRC\APP.C: syntax error near 'else', expected '__asm'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2024-04-23 16:50:05]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 70 OF .\SRC\APP.C: syntax error near '=', expected 'sizeof'
+*** ERROR C141 IN LINE 70 OF .\SRC\APP.C: syntax error near '&&', expected '__asm'
+*** ERROR C141 IN LINE 70 OF .\SRC\APP.C: syntax error near ')', expected ';'
+*** ERROR C141 IN LINE 74 OF .\SRC\APP.C: syntax error near 'else', expected '__asm'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2024-04-23 17:12:04]	[done]
+	build successfully !
+
+[2024-04-23 17:13:21]	[done]
+	build successfully !
+
+[2024-04-23 17:17:23]	[done]
+	build successfully !
+
+[2024-04-23 17:18:21]	[done]
+	build successfully !
+
+[2024-04-23 17:37:28]	[done]
+	build successfully !
+
+[2024-04-23 17:42:32]	[done]
+	build successfully !
+
+[2024-04-23 17:42:53]	[done]
+	build successfully !
+
+[2024-04-23 17:48:06]	[done]
+	build successfully !
+
+[2024-04-23 17:48:17]	[done]
+	build successfully !
+
+[2024-04-23 17:50:38]	[done]
+	build successfully !
+
+[2024-04-23 17:51:39]	[done]
+	build successfully !
+
+[2024-04-23 18:11:25]	[done]
+	build successfully !
+
+[2024-04-23 18:15:41]	[done]
+	build successfully !
+
+[2024-04-23 18:15:59]	[done]
+	build successfully !
+
+[2024-04-23 18:16:07]	[done]
+	build successfully !
+
+[2024-04-23 19:00:12]	[done]
+	build successfully !
+
+[2024-04-23 19:04:04]	[done]
+	build successfully !
+
+[2024-04-24 00:03:57]	[done]
+	build successfully !
+
+[2024-04-24 00:19:35]	[done]
+	build successfully !
+
+[2024-04-24 00:20:03]	[done]
+	build successfully !
+
+[2024-04-24 00:20:37]	[done]
+	build successfully !
+
+[2024-04-24 00:21:10]	[done]
+	build successfully !
+
+[2024-04-24 00:21:38]	[done]
+	build successfully !
+
+[2024-04-24 00:22:26]	[done]
+	build successfully !
+
+[2024-04-24 00:27:26]	[done]
+	build successfully !
+
+[2024-04-24 00:29:51]	[done]
+	build successfully !
+
+[2024-04-24 00:30:46]	[done]
+	build successfully !
+
+[2024-04-24 00:31:37]	[done]
+	build successfully !
+
+[2024-04-24 00:32:22]	[done]
+	build successfully !
+
+[2024-04-24 00:34:29]	[done]
+	build successfully !
+
+[2024-04-24 00:35:00]	[done]
+	build successfully !
+
+[2024-04-24 00:35:46]	[done]
+	build successfully !
+
+[2024-04-24 00:36:01]	[done]
+	build successfully !
+
+[2024-04-24 00:38:01]	[done]
+	build successfully !
+
+[2024-04-24 00:39:15]	[done]
+	build successfully !
+
+[2024-04-24 00:40:01]	[done]
+	build successfully !
+
+[2024-04-24 00:40:08]	[done]
+	build successfully !
+
+[2024-04-24 00:40:12]	[done]
+	build successfully !
+
+[2024-04-24 00:45:13]	[done]
+	build successfully !
+
+[2024-04-24 00:46:02]	[done]
+	build successfully !
+
+[2024-04-24 00:48:13]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\KEYPAD\keypad.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\KEYPAD\keypad.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\KEYPAD\keypad.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\KEYPAD\keypad.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 2 OF .\SRC\HAL\KEYPAD\KEYPAD.C: can't open file 'keypad2.h'
+*** ERROR C202 IN LINE 10 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL1_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 11 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL2_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 12 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL3_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 13 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL4_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 15 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW1_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 16 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW2_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 17 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW3_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 18 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW4_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 20 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL1_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 23 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL2_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 26 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL3_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 29 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL4_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 33 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW1_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 34 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW2_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 36 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL1_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 39 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL2_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 42 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL3_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 45 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL4_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 49 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW2_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 50 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW3_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 52 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL1_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 55 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL2_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 58 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL3_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 61 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL4_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 65 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW3_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 66 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_ROW4_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 68 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL1_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 71 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL2_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 74 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL3_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 77 OF .\SRC\HAL\KEYPAD\KEYPAD.C: 'KEYPAD_COL4_PORT_ID': undefined identifier
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  30 ERROR(S)
+
+[2024-04-24 00:48:25]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\build\Release\HMI.lnp" .\build\Release\.obj\src\APP.o,.\build\Release\.obj\src\HAL\KEYPAD\keypad.o,.\build\Release\.obj\src\HAL\LCD\lcd.o,.\build\Release\.obj\src\MCAL\DELAY\delay.o,.\build\Release\.obj\src\MCAL\GPIO\gpio.o,.\build\Release\.obj\src\MCAL\TIMER0\timer0.o,.\build\Release\.obj\src\MCAL\USART\usart.o,.\build\Release\.obj\src\test.o TO .\build\Release\HMI
+PRINT(.\build\Release\HMI.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  KEYPAD_getPressedKey
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\APP.O (APP)
+
+Program Size: data=29.0 xdata=0 const=20 code=1200
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2024-04-24 00:48:40]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\build\Release\HMI.lnp" .\build\Release\.obj\src\APP.o,.\build\Release\.obj\src\HAL\KEYPAD\keypad.o,.\build\Release\.obj\src\HAL\LCD\lcd.o,.\build\Release\.obj\src\MCAL\DELAY\delay.o,.\build\Release\.obj\src\MCAL\GPIO\gpio.o,.\build\Release\.obj\src\MCAL\TIMER0\timer0.o,.\build\Release\.obj\src\MCAL\USART\usart.o,.\build\Release\.obj\src\test.o TO .\build\Release\HMI
+PRINT(.\build\Release\HMI.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  KEYPAD_getPressedKey
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\APP.O (APP)
+
+Program Size: data=29.0 xdata=0 const=20 code=1200
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2024-04-24 00:49:06]	[done]
+	build successfully !
+
+[2024-04-24 00:49:17]	[done]
+	build successfully !
+
+[2024-04-24 00:49:48]	[done]
+	build successfully !
+
+[2024-04-24 00:51:04]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\HMI_Unit\src\HAL\KEYPAD\keypad.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\KEYPAD\keypad.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\KEYPAD\keypad.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/LCD;src/HAL/KEYPAD) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\KEYPAD\keypad.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C101 IN LINE 30 OF .\SRC\HAL\KEYPAD\KEYPAD.C: ''A': invalid character constant
+*** ERROR C305 IN LINE 30 OF .\SRC\HAL\KEYPAD\KEYPAD.C: unterminated string/char const
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2024-04-24 00:51:17]	[done]
+	build successfully !
+
+[2024-04-24 00:56:10]	[done]
+	build successfully !
+
+[2024-04-24 00:59:15]	[done]
+	build successfully !
+
+[2024-04-24 01:00:10]	[done]
+	build successfully !
+
+[2024-04-24 01:00:29]	[done]
+	build successfully !
+
+[2024-04-24 01:01:19]	[done]
+	build successfully !
+
+[2024-04-24 01:01:53]	[done]
+	build successfully !
+
+[2024-04-24 01:02:27]	[done]
+	build successfully !
+
+[2024-04-24 01:05:50]	[done]
+	build successfully !
+
+[2024-04-24 01:08:06]	[done]
+	build successfully !
+
+[2024-04-24 03:41:36]	[done]
+	build successfully !
+
+[2024-04-24 03:45:01]	[done]
+	build successfully !
+
+[2024-04-24 03:45:11]	[done]
+	build successfully !
+
+[2024-04-24 12:20:09]	[done]
+	build successfully !
+

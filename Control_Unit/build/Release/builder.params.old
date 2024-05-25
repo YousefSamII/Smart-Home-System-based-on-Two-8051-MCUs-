@@ -1,0 +1,97 @@
+{
+    "name": "Control",
+    "target": "Release",
+    "toolchain": "Keil_C51",
+    "toolchainLocation": "C:\\Keil_v5\\C51",
+    "toolchainCfgFile": "c:\\Users\\Youssif Hossam\\.vscode\\extensions\\cl.eide-3.16.0\\res\\data\\models\\win32/8051.keil.model.json",
+    "buildMode": "normal|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 12,
+    "rootDir": "d:\\Studies\\6th Semister\\Embedded Systems\\Project\\VSCode WS\\Control_Unit",
+    "dumpPath": "build\\Release",
+    "outDir": "build\\Release",
+    "incDirs": [
+        "C:/Keil_v5/C51/INC",
+        "src",
+        "src/MCAL/USART",
+        "src/MCAL/TIMER0",
+        "src/MCAL/I2C",
+        "src/MCAL/GPIO",
+        "src/MCAL/DELAY",
+        "src/LIB",
+        "src/HAL/SERVO",
+        "src/HAL/RELAY2",
+        "src/HAL/RELAY1",
+        "src/HAL/LCD",
+        "src/HAL/EEPROM",
+        "src/HAL/BUZZER"
+    ],
+    "libDirs": [],
+    "defines": [
+        "__UVISION_VERSION=526"
+    ],
+    "sourceList": [
+        "src/APP.c",
+        "src/HAL/BUZZER/buzzer.c",
+        "src/HAL/EEPROM/eeprom.c",
+        "src/HAL/LCD/lcd.c",
+        "src/HAL/RELAY1/relay1.c",
+        "src/HAL/RELAY2/relay2.c",
+        "src/HAL/SERVO/servomotor.c",
+        "src/MCAL/DELAY/delay.c",
+        "src/MCAL/GPIO/gpio.c",
+        "src/MCAL/I2C/i2c.c",
+        "src/MCAL/TIMER0/timer0.c",
+        "src/MCAL/USART/usart.c",
+        "src/test.c"
+    ],
+    "sourceParams": {},
+    "sourceParamsMtime": 1712423022200.612,
+    "options": {
+        "beforeBuildTasks": [],
+        "afterBuildTasks": [],
+        "global": {
+            "ram-mode": "SMALL",
+            "rom-mode": "LARGE"
+        },
+        "c/cpp-compiler": {
+            "optimization-type": "SPEED",
+            "optimization-level": "level-8",
+            "optimization": "8,SPEED"
+        },
+        "asm-compiler": {},
+        "linker": {
+            "remove-unused": true,
+            "output-format": "elf",
+            "use-RTX": "None"
+        },
+        "version": 2
+    },
+    "env": {
+        "workspaceFolder": "d:\\Studies\\6th Semister\\Embedded Systems\\Project\\VSCode WS\\Control_Unit",
+        "workspaceFolderBasename": "Control_Unit",
+        "OutDir": "d:\\Studies\\6th Semister\\Embedded Systems\\Project\\VSCode WS\\Control_Unit\\build\\Release",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\Release",
+        "ProjectName": "Control",
+        "ConfigName": "Release",
+        "ProjectRoot": "d:\\Studies\\6th Semister\\Embedded Systems\\Project\\VSCode WS\\Control_Unit",
+        "ExecutableName": "d:\\Studies\\6th Semister\\Embedded Systems\\Project\\VSCode WS\\Control_Unit\\build\\Release\\Control",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "ToolchainRoot": "C:\\Keil_v5\\C51"
+    },
+    "sha": {
+        "c/cpp-defines": "b5babb9cacba6494fa0692e84c1cf8da",
+        "beforeBuildTasks": "d751713988987e9331980363e24189ce",
+        "afterBuildTasks": "d751713988987e9331980363e24189ce",
+        "global": "c16529a49a409094a87f0219fb297e41",
+        "c/cpp-compiler": "d6401cb3a45dab99a8d0301dd2b94e32",
+        "asm-compiler": "99914b932bd37a50b983c5e7c90ae93b",
+        "linker": "15a323ec34b82176433e3f27b0ac0ffb"
+    }
+}

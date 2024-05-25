@@ -1,0 +1,564 @@
+LX51 LINKER/LOCATER V4.66.100.0                                                         04/24/2024  12:19:50  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.100.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\LX51.EXE .\BUILD\RELEASE\.OBJ\SRC\APP.O, .\BUILD\RELEASE\.OBJ\SRC\HAL\BUZZER\BUZZER.O, .\BUILD\RELEAS
+>> E\.OBJ\SRC\HAL\EEPROM\EEPROM.O, .\BUILD\RELEASE\.OBJ\SRC\HAL\LCD\LCD.O, .\BUILD\RELEASE\.OBJ\SRC\HAL\RELAY1\RELAY1.O,
+>>  .\BUILD\RELEASE\.OBJ\SRC\HAL\RELAY2\RELAY2.O, .\BUILD\RELEASE\.OBJ\SRC\HAL\SERVO\SERVOMOTOR.O, .\BUILD\RELEASE\.OBJ\
+>> SRC\MCAL\DELAY\DELAY.O, .\BUILD\RELEASE\.OBJ\SRC\MCAL\GPIO\GPIO.O, .\BUILD\RELEASE\.OBJ\SRC\MCAL\I2C\I2C.O, .\BUILD\R
+>> ELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O, .\BUILD\RELEASE\.OBJ\SRC\MCAL\USART\USART.O, .\BUILD\RELEASE\.OBJ\SRC\TEST.O TO
+>>  .\BUILD\RELEASE\CONTROL PRINT (.\build\Release\Control.map) REMOVEUNUSED
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: SMALL WITH FLOATING POINT ARITHMETIC
+
+
+INPUT MODULES INCLUDED:
+  .\BUILD\RELEASE\.OBJ\SRC\APP.O (APP)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\HAL\BUZZER\BUZZER.O (BUZZER)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\HAL\EEPROM\EEPROM.O (EEPROM)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\HAL\LCD\LCD.O (LCD)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\HAL\RELAY1\RELAY1.O (RELAY1)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\HAL\RELAY2\RELAY2.O (RELAY2)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\HAL\SERVO\SERVOMOTOR.O (SERVOMOTOR)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\DELAY\DELAY.O (DELAY)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\GPIO\GPIO.O (GPIO)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\I2C\I2C.O (I2C)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\TIMER0\TIMER0.O (TIMER0)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\MCAL\USART\USART.O (USART)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  .\BUILD\RELEASE\.OBJ\SRC\TEST.O (TEST)
+         COMMENT TYPE 0: C51 V9.60.7.0
+  C:\KEIL_V5\C51\LIB\C51FPS.LIB (?C?FPADD)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51FPS.LIB (?C?FPMUL)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51FPS.LIB (?C?FPDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51FPS.LIB (?C?FCAST)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51FPS.LIB (?C?CASTF)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51FPS.LIB (?C?FPGETOPN)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?COPY)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?CLDOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?CSTOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?SIDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?LNEG)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?CCASE)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  12:19:50  PAGE 2
+
+
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?UIDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  .\BUILD\RELEASE\CONTROL (APP)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   000AB4H   CODE
+I:000000H   I:000000H   I:00007FH   000022H   DATA
+C:000000H   C:000000H   C:00FFFFH             CONST
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  .\BUILD\RELEASE\CONTROL (APP)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H   00001BH   000014H   BYTE   UNIT     DATA           _DATA_GROUP_
+00001CH   000021H   000006H   BYTE   UNIT     DATA           ?DT?SERVOMOTOR
+000022H   000022H   000001H   BYTE   UNIT     IDATA          ?STACK
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
+000003H   00000AH   000008H   BYTE   UNIT     CODE           ?PR?_UART_SENDBYTE?USART
+00000BH   00000DH   000003H   BYTE   OFFS..   CODE           ?TIMER0?0000B
+00000EH   00056EH   000561H   BYTE   UNIT     CODE           ?C?LIB_CODE
+00056FH   0006E2H   000174H   BYTE   UNIT     CODE           ?PR?MAIN?APP
+0006E3H   000787H   0000A5H   BYTE   UNIT     CODE           ?PR?_GPIO_WRITEPIN?GPIO
+000788H   00082AH   0000A3H   BYTE   UNIT     CODE           ?PR?_GPIO_READPIN?GPIO
+00082BH   00089FH   000075H   BYTE   UNIT     CODE           ?PR?_SERVOMOTOR_ROTATE?SERVOMOTOR
+0008A0H   0008EEH   00004FH   BYTE   UNIT     CODE           ?PR?_I2C_WRITEBYTE?I2C
+0008EFH   000932H   000044H   BYTE   UNIT     CODE           ?PR?_EEPROM_READBYTE?EEPROM
+000933H   000974H   000042H   BYTE   UNIT     CODE           ?PR?I2C_READBYTE?I2C
+000975H   0009A1H   00002DH   BYTE   UNIT     CODE           ?PR?_RECEIVE_PASSWORD?APP
+0009A2H   0009CCH   00002BH   BYTE   UNIT     CODE           ?PR?_EEPROM_WRITEBYTE?EEPROM
+0009CDH   0009ECH   000020H   BYTE   UNIT     CODE           ?PR?_MSDELAY?DELAY
+0009EDH   000A0CH   000020H   BYTE   UNIT     CODE           ?PR?I2C_START?I2C
+000A0DH   000A26H   00001AH   BYTE   UNIT     CODE           ?PR?TIMER0_ISR?TIMER0
+000A27H   000A3EH   000018H   BYTE   UNIT     CODE           ?PR?I2C_STOP?I2C
+000A3FH   000A53H   000015H   BYTE   UNIT     CODE           ?PR?RELAY1_TOGGLE?RELAY1
+000A54H   000A68H   000015H   BYTE   UNIT     CODE           ?PR?RELAY2_TOGGLE?RELAY2
+000A69H   000A7DH   000015H   BYTE   UNIT     CODE           ?PR?TIMER0_INIT?TIMER0
+000A7EH   000A8DH   000010H   BYTE   UNIT     CODE           ?PR?_UART_INIT?USART
+000A8EH   000A99H   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+000A9AH   000AA2H   000009H   BYTE   UNIT     CODE           ?PR?BUZZER_ON?BUZZER
+000AA3H   000AABH   000009H   BYTE   UNIT     CODE           ?PR?BUZZER_OFF?BUZZER
+000AACH   000AB3H   000008H   BYTE   UNIT     CODE           ?PR?UART_RECIEVEBYTE?USART
+
+* * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
+   *DEL*:           00004BH   BYTE   UNIT     CODE           ?PR?_EEPROM_WRITEMULTIBLEBYTES?EEPROM
+   *DEL*:           000007H   BYTE   UNIT     DATA           ?DT?_EEPROM_WRITEMULTIBLEBYTES?EEPROM
+   *DEL*:           000037H   BYTE   UNIT     CODE           ?PR?_EEPROM_READMULTIBLEBYTES?EEPROM
+   *DEL*:           000007H   BYTE   UNIT     DATA           ?DT?_EEPROM_READMULTIBLEBYTES?EEPROM
+   *DEL*:           000016H   BYTE   UNIT     CODE           ?PR?LCD_INIT?LCD
+   *DEL*:           000050H   BYTE   UNIT     CODE           ?PR?_LCD_SENDCOMMAND?LCD
+   *DEL*:           000001H   BYTE   UNIT     DATA           ?DT?_LCD_SENDCOMMAND?LCD
+   *DEL*:           000040H   BYTE   UNIT     CODE           ?PR?_LCD_DISPLAYCHARACTER?LCD
+   *DEL*:           000001H   BYTE   UNIT     DATA           ?DT?_LCD_DISPLAYCHARACTER?LCD
+   *DEL*:           000023H   BYTE   UNIT     CODE           ?PR?_LCD_DISPLAYSTRING?LCD
+   *DEL*:           000004H   BYTE   UNIT     DATA           ?DT?_LCD_DISPLAYSTRING?LCD
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  12:19:50  PAGE 3
+
+
+   *DEL*:           000032H   BYTE   UNIT     CODE           ?PR?_LCD_MOVECURSOR?LCD
+   *DEL*:           000001H   BYTE   UNIT     DATA           ?DT?_LCD_MOVECURSOR?LCD
+   *DEL*:           000012H   BYTE   UNIT     CODE           ?PR?_LCD_DISPLAYSTRINGROWCOLUMN?LCD
+   *DEL*:           000003H   BYTE   UNIT     DATA           ?DT?_LCD_DISPLAYSTRINGROWCOLUMN?LCD
+   *DEL*:           000005H   BYTE   UNIT     CODE           ?PR?LCD_CLEARSCREEN?LCD
+   *DEL*:           000099H   BYTE   UNIT     CODE           ?PR?_LCD_INTGERTOSTRING?LCD
+   *DEL*:           000013H   BYTE   UNIT     DATA           ?DT?_LCD_INTGERTOSTRING?LCD
+   *DEL*:           00000BH   BYTE   UNIT     CODE           ?PR?_LCD_CLEARROW?LCD
+   *DEL*:           00003CH   BYTE   UNIT     CODE           ?PR?_LCD_STORECUSTOMPTRN?LCD
+   *DEL*:           000004H   BYTE   UNIT     DATA           ?DT?_LCD_STORECUSTOMPTRN?LCD
+   *DEL*:           000010H   BYTE   UNIT     CODE           ?PR?_LCD_DISPLAYCUSTOMPTRN?LCD
+   *DEL*:           000001H   BYTE   UNIT     DATA           ?DT?_LCD_DISPLAYCUSTOMPTRN?LCD
+   *DEL*:           000021H   BYTE   UNIT     CONST          ?CO?LCD
+   *DEL*:           00000BH   BYTE   UNIT     CODE           ?PR?SERVOMOTOR_ROTATE_0?SERVOMOTOR
+   *DEL*:           00000BH   BYTE   UNIT     CODE           ?PR?SERVOMOTOR_ROTATE_90?SERVOMOTOR
+   *DEL*:           00000BH   BYTE   UNIT     CODE           ?PR?SERVOMOTOR_ROTATE_180?SERVOMOTOR
+   *DEL*:           000054H   BYTE   UNIT     CODE           ?PR?_GPIO_SETUPPININPUT?GPIO
+   *DEL*:           000024H   BYTE   UNIT     CODE           ?PR?_GPIO_SETUPPORTINPUT?GPIO
+   *DEL*:           000020H   BYTE   UNIT     CODE           ?PR?_GPIO_WRITEPORT?GPIO
+   *DEL*:           000027H   BYTE   UNIT     CODE           ?PR?_GPIO_READPORT?GPIO
+   *DEL*:           000020H   BYTE   UNIT     CODE           ?PR?_UART_SENDSTRING?USART
+   *DEL*:           000003H   BYTE   UNIT     DATA           ?DT?_UART_SENDSTRING?USART
+   *DEL*:           00004FH   BYTE   UNIT     CODE           ?PR?_UART_RECEIVESTRING?USART
+   *DEL*:           000003H   BYTE   UNIT     DATA           ?DT?_UART_RECEIVESTRING?USART
+   *DEL*:           000023H   BYTE   UNIT     CODE           ?PR?MAINS?TEST
+
+
+
+OVERLAY MAP OF MODULE:   .\BUILD\RELEASE\CONTROL (APP)
+
+
+FUNCTION/MODULE                         BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE             START  STOP  START  STOP
+===============================================================
+TIMER0_ISR/TIMER0                      ----- -----  ----- -----
+
+*** NEW ROOT *************************
+
+?C_C51STARTUP                          ----- -----  ----- -----
+  +--> MAIN/APP
+
+MAIN/APP                               ----- -----  0008H 0013H
+  +--> _UART_INIT/USART
+  +--> TIMER0_INIT/TIMER0
+  +--> _SERVOMOTOR_ROTATE/SERVOMOTOR
+  +--> BUZZER_OFF/BUZZER
+  +--> RELAY1_TOGGLE/RELAY1
+  +--> RELAY2_TOGGLE/RELAY2
+  +--> UART_RECIEVEBYTE/USART
+  +--> _EEPROM_READBYTE/EEPROM
+  +--> _RECEIVE_PASSWORD/APP
+  +--> _UART_SENDBYTE/USART
+  +--> _EEPROM_WRITEBYTE/EEPROM
+  +--> _MSDELAY/DELAY
+  +--> BUZZER_ON/BUZZER
+
+_UART_INIT/USART                       ----- -----  ----- -----
+
+TIMER0_INIT/TIMER0                     ----- -----  ----- -----
+
+_SERVOMOTOR_ROTATE/SERVOMOTOR          ----- -----  0014H 001BH
+
+BUZZER_OFF/BUZZER                      ----- -----  ----- -----
+  +--> _GPIO_WRITEPIN/GPIO
+
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  12:19:50  PAGE 4
+
+
+_GPIO_WRITEPIN/GPIO                    ----- -----  ----- -----
+
+RELAY1_TOGGLE/RELAY1                   ----- -----  ----- -----
+  +--> _GPIO_READPIN/GPIO
+  +--> _GPIO_WRITEPIN/GPIO
+
+_GPIO_READPIN/GPIO                     ----- -----  ----- -----
+
+RELAY2_TOGGLE/RELAY2                   ----- -----  ----- -----
+  +--> _GPIO_READPIN/GPIO
+  +--> _GPIO_WRITEPIN/GPIO
+
+UART_RECIEVEBYTE/USART                 ----- -----  ----- -----
+
+_EEPROM_READBYTE/EEPROM                ----- -----  0014H 0016H
+  +--> I2C_START/I2C
+  +--> _I2C_WRITEBYTE/I2C
+  +--> I2C_READBYTE/I2C
+  +--> I2C_STOP/I2C
+
+I2C_START/I2C                          ----- -----  ----- -----
+  +--> _GPIO_WRITEPIN/GPIO
+
+_I2C_WRITEBYTE/I2C                     ----- -----  0017H 0018H
+  +--> _GPIO_WRITEPIN/GPIO
+  +--> _GPIO_READPIN/GPIO
+
+I2C_READBYTE/I2C                       ----- -----  0017H 0018H
+  +--> _GPIO_WRITEPIN/GPIO
+  +--> _GPIO_READPIN/GPIO
+
+I2C_STOP/I2C                           ----- -----  ----- -----
+  +--> _GPIO_WRITEPIN/GPIO
+
+_RECEIVE_PASSWORD/APP                  ----- -----  0014H 0017H
+  +--> UART_RECIEVEBYTE/USART
+  +--> _MSDELAY/DELAY
+
+_MSDELAY/DELAY                         ----- -----  ----- -----
+
+_UART_SENDBYTE/USART                   ----- -----  ----- -----
+
+_EEPROM_WRITEBYTE/EEPROM               ----- -----  0014H 0016H
+  +--> I2C_START/I2C
+  +--> _I2C_WRITEBYTE/I2C
+  +--> I2C_STOP/I2C
+
+BUZZER_ON/BUZZER                       ----- -----  ----- -----
+  +--> _GPIO_WRITEPIN/GPIO
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\BUILD\RELEASE\CONTROL (APP)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+*DEL*:00000000H   DATA     BYTE      ?_EEPROM_readMultibleBytes?BYTE
+*DEL*:00000000H   DATA     BYTE      ?_EEPROM_writeMultibleBytes?BYTE
+      010002EAH   CODE     ---       ?C?CASTF
+      010004F4H   CODE     ---       ?C?CCASE
+      01000461H   CODE     ---       ?C?CLDOPTR
+      00000000H   NUMBER   ---       ?C?CODESEG
+      0100043BH   CODE     ---       ?C?COPY
+      0100048EH   CODE     ---       ?C?CSTOPTR
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  12:19:50  PAGE 5
+
+
+      010002B6H   CODE     ---       ?C?FCASTC
+      010002B1H   CODE     ---       ?C?FCASTI
+      010002ACH   CODE     ---       ?C?FCASTL
+      01000015H   CODE     ---       ?C?FPADD
+      0100020FH   CODE     ---       ?C?FPDIV
+      01000321H   CODE     ---       ?C?FPGETOPN2
+      01000106H   CODE     ---       ?C?FPMUL
+      01000356H   CODE     ---       ?C?FPNANRESULT
+      01000360H   CODE     ---       ?C?FPOVERFLOW
+      01000338H   CODE     ---       ?C?FPRESULT
+      0100034CH   CODE     ---       ?C?FPRESULT2
+      01000011H   CODE     ---       ?C?FPSUB
+      0100035DH   CODE     ---       ?C?FPUNDERFLOW
+      010004E6H   CODE     ---       ?C?LNEG
+      010004B0H   CODE     ---       ?C?SIDIV
+      0100051AH   CODE     ---       ?C?UIDIV
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      0100056FH   CODE     ---       ?C_START
+      01000000H   CODE     ---       ?C_STARTUP
+      010008EFH   CODE     ---       _EEPROM_readByte
+*DEL*:00000000H   CODE     ---       _EEPROM_readMultibleBytes
+      010009A2H   CODE     ---       _EEPROM_writeByte
+*DEL*:00000000H   CODE     ---       _EEPROM_writeMultibleBytes
+      01000788H   CODE     ---       _GPIO_readPin
+*DEL*:00000000H   CODE     ---       _GPIO_readPort
+*DEL*:00000000H   CODE     ---       _GPIO_setupPinInput
+*DEL*:00000000H   CODE     ---       _GPIO_setupPortInput
+      010006E3H   CODE     ---       _GPIO_writePin
+*DEL*:00000000H   CODE     ---       _GPIO_writePort
+      010008A0H   CODE     ---       _I2C_writeByte
+*DEL*:00000000H   CODE     ---       _LCD_clearRow
+*DEL*:00000000H   CODE     ---       _LCD_displayCharacter
+*DEL*:00000000H   CODE     ---       _LCD_DisplayCustomPtrn
+*DEL*:00000000H   CODE     ---       _LCD_displayString
+*DEL*:00000000H   CODE     ---       _LCD_displayStringRowColumn
+*DEL*:00000000H   CODE     ---       _LCD_intgerToString
+*DEL*:00000000H   CODE     ---       _LCD_moveCursor
+*DEL*:00000000H   CODE     ---       _LCD_sendCommand
+*DEL*:00000000H   CODE     ---       _LCD_StoreCustomPtrn
+      010009CDH   CODE     ---       _MSdelay
+      01000975H   CODE     ---       _receive_password
+      0100082BH   CODE     ---       _servoMotor_rotate
+      01000A7EH   CODE     ---       _UART_init
+*DEL*:00000000H   CODE     ---       _UART_receiveString
+      01000003H   CODE     ---       _UART_sendByte
+*DEL*:00000000H   CODE     ---       _UART_sendString
+      01000AA3H   CODE     ---       BUZZER_off
+      01000A9AH   CODE     ---       BUZZER_on
+      0000001CH   DATA     WORD      DutyCycle
+      01000933H   CODE     ---       I2C_readByte
+      010009EDH   CODE     ---       I2C_start
+      01000A27H   CODE     ---       I2C_stop
+*DEL*:00000000H   CODE     ---       LCD_clearScreen
+*DEL*:00000000H   CODE     ---       LCD_init
+      0100056FH   CODE     ---       main
+*DEL*:00000000H   CODE     ---       mainS
+      0000001EH   DATA     WORD      OFF_Period
+      00000020H   DATA     WORD      ON_Period
+      01000A3FH   CODE     ---       RELAY1_toggle
+      01000A54H   CODE     ---       RELAY2_toggle
+*DEL*:00000000H   CODE     ---       servoMotor_rotate_0
+*DEL*:00000000H   CODE     ---       servoMotor_rotate_180
+*DEL*:00000000H   CODE     ---       servoMotor_rotate_90
+      01000A69H   CODE     ---       Timer0_init
+      01000A0DH   CODE     ---       Timer0_ISR
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  12:19:50  PAGE 6
+
+
+      01000AACH   CODE     ---       UART_recieveByte
+
+
+
+SYMBOL TABLE OF MODULE:  .\BUILD\RELEASE\CONTROL (APP)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       APP
+      01000975H   PUBLIC    CODE     ---       _receive_password
+      0100056FH   PUBLIC    CODE     ---       main
+
+      0100056FH   BLOCK     CODE     ---       LVL=0
+      0100056FH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000008H   SYMBOL    DATA     VOID      Password_Arr1
+      0000000DH   SYMBOL    DATA     VOID      Password_Arr2
+      00000012H   SYMBOL    DATA     VOID      matching_flag
+      00000007H   SYMBOL    DATA     VOID      PasswordTempVar
+      00000007H   SYMBOL    DATA     VOID      PasswordSetFlag
+      00000013H   SYMBOL    DATA     VOID      MultiUsedCounter
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000975H   BLOCK     CODE     ---       LVL=0
+      0100097BH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000017H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       BUZZER
+      01000AA3H   PUBLIC    CODE     ---       BUZZER_off
+      01000A9AH   PUBLIC    CODE     ---       BUZZER_on
+
+      01000A9AH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000AA3H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       EEPROM
+      010008EFH   PUBLIC    CODE     ---       _EEPROM_readByte
+      010009A2H   PUBLIC    CODE     ---       _EEPROM_writeByte
+
+      010009A2H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010008EFH   BLOCK     CODE     ---       LVL=0
+      010008F3H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000016H   SYMBOL    DATA     VOID      u8data
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       LCD
+      00000003H   SYMBOL    DATA     VOID      counter
+      00000002H   SYMBOL    DATA     VOID      iterator
+      00000007H   SYMBOL    DATA     VOID      swapper
+      00000007H   SYMBOL    DATA     VOID      LCD_CGRAM_address
+
+      ---         MODULE    ---      ---       RELAY1
+      01000A3FH   PUBLIC    CODE     ---       RELAY1_toggle
+
+      01000A3FH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       RELAY2
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  12:19:50  PAGE 7
+
+
+      01000A54H   PUBLIC    CODE     ---       RELAY2_toggle
+
+      01000A54H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       SERVOMOTOR
+      00000020H   PUBLIC    DATA     WORD      ON_Period
+      0000001EH   PUBLIC    DATA     WORD      OFF_Period
+      0000001CH   PUBLIC    DATA     WORD      DutyCycle
+      0100082BH   PUBLIC    CODE     ---       _servoMotor_rotate
+
+      0100082BH   BLOCK     CODE     ---       LVL=0
+      01000833H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000018H   SYMBOL    DATA     VOID      period
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       DELAY
+      010009CDH   PUBLIC    CODE     ---       _MSdelay
+
+      010009CDH   BLOCK     CODE     ---       LVL=0
+      010009CDH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000004H   SYMBOL    DATA     VOID      i
+      00000002H   SYMBOL    DATA     VOID      j
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       GPIO
+      01000788H   PUBLIC    CODE     ---       _GPIO_readPin
+      010006E3H   PUBLIC    CODE     ---       _GPIO_writePin
+
+      010006E3H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000788H   BLOCK     CODE     ---       LVL=0
+      01000788H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000004H   SYMBOL    DATA     VOID      pin_value
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+      00000006H   SYMBOL    DATA     VOID      value
+
+      ---         MODULE    ---      ---       I2C
+      01000933H   PUBLIC    CODE     ---       I2C_readByte
+      010008A0H   PUBLIC    CODE     ---       _I2C_writeByte
+      01000A27H   PUBLIC    CODE     ---       I2C_stop
+      010009EDH   PUBLIC    CODE     ---       I2C_start
+
+      010009EDH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000A27H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010008A0H   BLOCK     CODE     ---       LVL=0
+      010008A2H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000018H   SYMBOL    DATA     VOID      i
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000933H   BLOCK     CODE     ---       LVL=0
+      01000933H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000017H   SYMBOL    DATA     VOID      i
+      00000018H   SYMBOL    DATA     VOID      receivedData
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  12:19:50  PAGE 8
+
+
+
+      ---         MODULE    ---      ---       TIMER0
+      01000A69H   PUBLIC    CODE     ---       Timer0_init
+      01000A0DH   PUBLIC    CODE     ---       Timer0_ISR
+
+      01000A0DH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000A69H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       USART
+      01000AACH   PUBLIC    CODE     ---       UART_recieveByte
+      01000003H   PUBLIC    CODE     ---       _UART_sendByte
+      01000A7EH   PUBLIC    CODE     ---       _UART_init
+
+      01000A7EH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000003H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000AACH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+      00000006H   SYMBOL    DATA     VOID      i
+      00000006H   SYMBOL    DATA     VOID      i
+
+      ---         MODULE    ---      ---       TEST
+
+      ---         MODULE    ---      ---       ?C?FPADD
+      01000015H   PUBLIC    CODE     ---       ?C?FPADD
+      01000011H   PUBLIC    CODE     ---       ?C?FPSUB
+
+      ---         MODULE    ---      ---       ?C?FPMUL
+      01000106H   PUBLIC    CODE     ---       ?C?FPMUL
+
+      ---         MODULE    ---      ---       ?C?FPDIV
+      0100020FH   PUBLIC    CODE     ---       ?C?FPDIV
+
+      ---         MODULE    ---      ---       ?C?FCAST
+      010002B6H   PUBLIC    CODE     ---       ?C?FCASTC
+      010002B1H   PUBLIC    CODE     ---       ?C?FCASTI
+      010002ACH   PUBLIC    CODE     ---       ?C?FCASTL
+
+      ---         MODULE    ---      ---       ?C?CASTF
+      010002EAH   PUBLIC    CODE     ---       ?C?CASTF
+
+      ---         MODULE    ---      ---       ?C?FPGETOPN
+      01000321H   PUBLIC    CODE     ---       ?C?FPGETOPN2
+      01000356H   PUBLIC    CODE     ---       ?C?FPNANRESULT
+      01000360H   PUBLIC    CODE     ---       ?C?FPOVERFLOW
+      01000338H   PUBLIC    CODE     ---       ?C?FPRESULT
+      0100034CH   PUBLIC    CODE     ---       ?C?FPRESULT2
+      0100035DH   PUBLIC    CODE     ---       ?C?FPUNDERFLOW
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+      01000000H   PUBLIC    CODE     ---       ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C?COPY
+      0100043BH   PUBLIC    CODE     ---       ?C?COPY
+
+      ---         MODULE    ---      ---       ?C?CLDOPTR
+      01000461H   PUBLIC    CODE     ---       ?C?CLDOPTR
+
+      ---         MODULE    ---      ---       ?C?CSTOPTR
+LX51 LINKER/LOCATER V4.66.100.0                                                       04/24/2024  12:19:50  PAGE 9
+
+
+      0100048EH   PUBLIC    CODE     ---       ?C?CSTOPTR
+
+      ---         MODULE    ---      ---       ?C?SIDIV
+      010004B0H   PUBLIC    CODE     ---       ?C?SIDIV
+
+      ---         MODULE    ---      ---       ?C?LNEG
+      010004E6H   PUBLIC    CODE     ---       ?C?LNEG
+
+      ---         MODULE    ---      ---       ?C?CCASE
+      010004F4H   PUBLIC    CODE     ---       ?C?CCASE
+
+      ---         MODULE    ---      ---       ?C?UIDIV
+      0100051AH   PUBLIC    CODE     ---       ?C?UIDIV
+
+Program Size: data=35.0 xdata=0 const=0 code=2740
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

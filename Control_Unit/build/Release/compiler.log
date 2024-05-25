@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\build\Release\Control.lnp" .\build\Release\.obj\src\APP.o,.\build\Release\.obj\src\HAL\BUZZER\buzzer.o,.\build\Release\.obj\src\HAL\EEPROM\eeprom.o,.\build\Release\.obj\src\HAL\LCD\lcd.o,.\build\Release\.obj\src\HAL\RELAY1\relay1.o,.\build\Release\.obj\src\HAL\RELAY2\relay2.o,.\build\Release\.obj\src\HAL\SERVO\servomotor.o,.\build\Release\.obj\src\MCAL\DELAY\delay.o,.\build\Release\.obj\src\MCAL\GPIO\gpio.o,.\build\Release\.obj\src\MCAL\I2C\i2c.o,.\build\Release\.obj\src\MCAL\TIMER0\timer0.o,.\build\Release\.obj\src\MCAL\USART\usart.o,.\build\Release\.obj\src\test.o TO .\build\Release\Control
+PRINT(.\build\Release\Control.map) REMOVEUNUSED
+
+Program Size: data=35.0 xdata=0 const=0 code=2740
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

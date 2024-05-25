@@ -1,0 +1,871 @@
+[2024-04-06 19:08:30]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\VSCode\Control\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 16 OF .\SRC\APP.C: can't open file 'MCAL/TIMER1/timer1.h'
+*** WARNING C318 IN LINE 17 OF .\SRC\APP.C: can't open file 'MCAL/I2C/i2c.h'
+*** WARNING C318 IN LINE 19 OF .\SRC\APP.C: can't open file 'HAL/EXT_EEPROM/ext_eeprom.h'
+*** WARNING C318 IN LINE 20 OF .\SRC\APP.C: can't open file 'HAL/L293D/l293d.h'
+*** WARNING C318 IN LINE 21 OF .\SRC\APP.C: can't open file 'util/delay.h'
+*** WARNING C318 IN LINE 22 OF .\SRC\APP.C: can't open file 'avr/io.h'
+*** ERROR C129 IN LINE 43 OF .\SRC\APP.C: missing ';' before 'Timer1Config'
+
+C51 COMPILATION COMPLETE.  6 WARNING(S),  1 ERROR(S)
+
+[2024-04-06 19:12:14]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\VSCode\Control\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/BUZZER;src/HAL/RELAY) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 16 OF .\SRC\APP.C: can't open file 'MCAL/TIMER1/timer1.h'
+*** WARNING C318 IN LINE 17 OF .\SRC\APP.C: can't open file 'MCAL/I2C/i2c.h'
+*** WARNING C318 IN LINE 19 OF .\SRC\APP.C: can't open file 'HAL/EXT_EEPROM/ext_eeprom.h'
+*** WARNING C318 IN LINE 20 OF .\SRC\APP.C: can't open file 'HAL/L293D/l293d.h'
+*** WARNING C318 IN LINE 21 OF .\SRC\APP.C: can't open file 'util/delay.h'
+*** WARNING C318 IN LINE 22 OF .\SRC\APP.C: can't open file 'avr/io.h'
+*** ERROR C129 IN LINE 43 OF .\SRC\APP.C: missing ';' before 'Timer1Config'
+
+C51 COMPILATION COMPLETE.  6 WARNING(S),  1 ERROR(S)
+
+[2024-04-06 19:36:19]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\VSCode\Control\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/LIB;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/HAL/SERVO;src/HAL/RELAY;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 49 OF .\SRC\HAL\EEPROM\../../MCAL/I2C/i2c.h: syntax error near ')', expected '<id>'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 49 OF .\SRC\MCAL/I2C/i2c.h: syntax error near ')', expected '<id>'
+*** ERROR C141 IN LINE 172 OF .\SRC\APP.C: syntax error near 'uint8', expected 'sizeof'
+*** ERROR C202 IN LINE 172 OF .\SRC\APP.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 172 OF .\SRC\APP.C: 'i': undefined identifier
+*** ERROR C202 IN LINE 172 OF .\SRC\APP.C: 'i': undefined identifier
+*** ERROR C141 IN LINE 172 OF .\SRC\APP.C: syntax error near ')', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+[2024-04-06 19:36:54]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\VSCode\Control\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/LIB;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/HAL/SERVO;src/HAL/RELAY;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 49 OF .\SRC\HAL\EEPROM\../../MCAL/I2C/i2c.h: syntax error near ')', expected '<id>'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 49 OF .\SRC\MCAL/I2C/i2c.h: syntax error near ')', expected '<id>'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-06 19:38:03]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\VSCode\Control\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/LIB;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/HAL/SERVO;src/HAL/RELAY;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 49 OF .\SRC\MCAL/I2C/i2c.h: syntax error near ')', expected '<id>'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 49 OF .\SRC\HAL\EEPROM\../../MCAL/I2C/i2c.h: syntax error near ')', expected '<id>'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-06 19:38:06]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\VSCode\Control\src\HAL\EEPROM\eeprom.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\EEPROM\eeprom.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\EEPROM\eeprom.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/LIB;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/HAL/SERVO;src/HAL/RELAY;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\EEPROM\eeprom.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 49 OF .\SRC\MCAL/I2C/i2c.h: syntax error near ')', expected '<id>'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 49 OF .\SRC\HAL\EEPROM\../../MCAL/I2C/i2c.h: syntax error near ')', expected '<id>'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-06 19:39:04]	[done]
+	build successfully !
+
+[2024-04-06 20:56:47]	[done]
+	build successfully !
+
+[2024-04-06 21:03:22]	[done]
+	build successfully !
+
+[2024-04-06 21:04:04]	[done]
+	build successfully !
+
+[2024-04-06 21:20:02]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.100.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 1995-2021, Arm Limited or its Affiliates. All rights reserved.
+"@d:\Studies\6th Semister\Embedded Systems\VSCode\Control\build\Release\Control.lnp" .\build\Release\.obj\src\APP.o,.\build\Release\.obj\src\HAL\BUZZER\buzzer.o,.\build\Release\.obj\src\HAL\EEPROM\eeprom.o,.\build\Release\.obj\src\HAL\RELAY\relay.o,.\build\Release\.obj\src\HAL\SERVO\servomotor.o,.\build\Release\.obj\src\MCAL\DELAY\delay.o,.\build\Release\.obj\src\MCAL\GPIO\gpio.o,.\build\Release\.obj\src\MCAL\I2C\i2c.o,.\build\Release\.obj\src\MCAL\TIMER0\timer0.o,.\build\Release\.obj\src\MCAL\USART\usart.o,.\build\Release\.obj\src\test.o TO .\build\Release\Control
+PRINT(.\build\Release\Control.map) REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  main
+    MODULE:  .\BUILD\RELEASE\.OBJ\SRC\TEST.O (TEST)
+   DEFINED:  .\BUILD\RELEASE\.OBJ\SRC\APP.O (APP)
+
+Program Size: data=36.0 xdata=0 const=0 code=2272
+LX51 RUN COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+
+[2024-04-06 21:20:13]	[done]
+	build successfully !
+
+[2024-04-06 21:23:01]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\VSCode\Control\src\test.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\test.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\test.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\test.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C206 IN LINE 7 OF .\SRC\TEST.C: 'MS_delay': missing function-prototype
+*** ERROR C267 IN LINE 7 OF .\SRC\TEST.C: 'MS_delay': requires ANSI-style prototype
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2024-04-06 21:23:08]	[done]
+	build successfully !
+
+[2024-04-06 21:24:00]	[done]
+	build successfully !
+
+[2024-04-06 21:24:43]	[done]
+	build successfully !
+
+[2024-04-06 21:27:50]	[done]
+	build successfully !
+
+[2024-04-06 21:28:08]	[done]
+	build successfully !
+
+[2024-04-06 21:30:25]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\VSCode\Control\src\test.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\test.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\test.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\test.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C309 IN LINE 3 OF .\SRC\TEST.C: bad or missing filename
+*** WARNING C318 IN LINE 3 OF .\SRC\TEST.C: can't open file ''
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2024-04-06 21:30:31]	[done]
+	build successfully !
+
+[2024-04-06 21:32:49]	[done]
+	build successfully !
+
+[2024-04-06 21:34:19]	[done]
+	build successfully !
+
+[2024-04-06 21:34:27]	[done]
+	build successfully !
+
+[2024-04-06 21:37:00]	[done]
+	build successfully !
+
+[2024-04-06 21:40:44]	[done]
+	build successfully !
+
+[2024-04-06 21:41:19]	[done]
+	build successfully !
+
+[2024-04-06 21:41:55]	[done]
+	build successfully !
+
+[2024-04-06 21:42:24]	[done]
+	build successfully !
+
+[2024-04-06 21:42:42]	[done]
+	build successfully !
+
+[2024-04-06 21:42:54]	[done]
+	build successfully !
+
+[2024-04-06 21:43:03]	[done]
+	build successfully !
+
+[2024-04-06 21:43:09]	[done]
+	build successfully !
+
+[2024-04-06 21:43:24]	[done]
+	build successfully !
+
+[2024-04-06 21:43:51]	[done]
+	build successfully !
+
+[2024-04-06 21:43:55]	[done]
+	build successfully !
+
+[2024-04-06 21:44:23]	[done]
+	build successfully !
+
+[2024-04-06 21:46:44]	[done]
+	build successfully !
+
+[2024-04-06 21:47:24]	[done]
+	build successfully !
+
+[2024-04-06 21:49:44]	[done]
+	build successfully !
+
+[2024-04-06 21:51:26]	[done]
+	build successfully !
+
+[2024-04-06 21:52:53]	[done]
+	build successfully !
+
+[2024-04-06 21:53:34]	[done]
+	build successfully !
+
+[2024-04-06 21:53:49]	[done]
+	build successfully !
+
+[2024-04-06 21:54:12]	[done]
+	build successfully !
+
+[2024-04-06 21:55:24]	[done]
+	build successfully !
+
+[2024-04-06 21:55:44]	[done]
+	build successfully !
+
+[2024-04-06 21:55:57]	[done]
+	build successfully !
+
+[2024-04-06 21:56:26]	[done]
+	build successfully !
+
+[2024-04-06 21:56:54]	[done]
+	build successfully !
+
+[2024-04-06 21:57:35]	[done]
+	build successfully !
+
+[2024-04-06 21:58:33]	[done]
+	build successfully !
+
+[2024-04-06 21:58:51]	[done]
+	build successfully !
+
+[2024-04-06 21:59:05]	[done]
+	build successfully !
+
+[2024-04-06 22:02:13]	[done]
+	build successfully !
+
+[2024-04-06 22:02:28]	[done]
+	build successfully !
+
+[2024-04-06 22:02:39]	[done]
+	build successfully !
+
+[2024-04-06 22:02:50]	[done]
+	build successfully !
+
+[2024-04-06 22:03:38]	[done]
+	build successfully !
+
+[2024-04-06 22:04:05]	[done]
+	build successfully !
+
+[2024-04-06 22:10:36]	[done]
+	build successfully !
+
+[2024-04-06 22:10:49]	[done]
+	build successfully !
+
+[2024-04-06 22:21:00]	[done]
+	build successfully !
+
+[2024-04-06 22:22:46]	[done]
+	build successfully !
+
+[2024-04-06 22:23:42]	[done]
+	build successfully !
+
+[2024-04-06 22:25:34]	[done]
+	build successfully !
+
+[2024-04-06 22:25:48]	[done]
+	build successfully !
+
+[2024-04-06 22:26:31]	[done]
+	build successfully !
+
+[2024-04-06 22:59:38]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\MCAL\GPIO\gpio.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\MCAL\GPIO\gpio.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\MCAL\GPIO\gpio.lst) INCDIR(C:/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\MCAL\GPIO\gpio.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 15 OF .\SRC\HAL\EEPROM\../../MCAL/GPIO/gpio.h: can't open file 'LIB/std_types.h'
+*** ERROR C141 IN LINE 48 OF .\SRC\HAL\EEPROM\../../MCAL/GPIO/gpio.h: syntax error near 'port_num', expected ')'
+*** ERROR C141 IN LINE 56 OF .\SRC\HAL\EEPROM\../../MCAL/GPIO/gpio.h: syntax error near 'port_num', expected ')'
+*** ERROR C129 IN LINE 63 OF .\SRC\HAL\EEPROM\../../MCAL/GPIO/gpio.h: missing ';' before 'GPIO_readPin'
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  3 ERROR(S)
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 12 OF .\SRC\HAL\LCD\LCD.C: can't open file 'MCAL/GPIO/gpio.h'
+*** WARNING C318 IN LINE 15 OF .\SRC\HAL\LCD\lcd.h: can't open file 'LIB/std_types.h'
+*** ERROR C141 IN LINE 80 OF .\SRC\HAL\LCD\lcd.h: syntax error near 'command', expected ')'
+*** ERROR C141 IN LINE 86 OF .\SRC\HAL\LCD\lcd.h: syntax error near 'character', expected ')'
+*** ERROR C141 IN LINE 98 OF .\SRC\HAL\LCD\lcd.h: syntax error near 'row', expected ')'
+*** ERROR C141 IN LINE 104 OF .\SRC\HAL\LCD\lcd.h: syntax error near 'row', expected ')'
+*** ERROR C141 IN LINE 122 OF .\SRC\HAL\LCD\lcd.h: syntax error near 'row', expected ')'
+*** ERROR C141 IN LINE 129 OF .\SRC\HAL\LCD\lcd.h: syntax error near '*', expected ')'
+*** ERROR C141 IN LINE 136 OF .\SRC\HAL\LCD\lcd.h: syntax error near 'CGRAM_index', expected ')'
+*** WARNING C318 IN LINE 14 OF .\SRC\HAL\LCD\LCD.C: can't open file 'LIB/common_macros.h'
+*** WARNING C318 IN LINE 15 OF .\SRC\HAL\LCD\LCD.C: can't open file 'MCAL/DELAY/delay.h'
+
+C51 COMPILATION COMPLETE.  4 WARNING(S),  7 ERROR(S)
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 15 OF .\SRC\MCAL\GPIO\gpio.h: can't open file 'LIB/std_types.h'
+*** ERROR C141 IN LINE 48 OF .\SRC\MCAL\GPIO\gpio.h: syntax error near 'port_num', expected ')'
+*** ERROR C141 IN LINE 56 OF .\SRC\MCAL\GPIO\gpio.h: syntax error near 'port_num', expected ')'
+*** ERROR C129 IN LINE 63 OF .\SRC\MCAL\GPIO\gpio.h: missing ';' before 'GPIO_readPin'
+*** WARNING C318 IN LINE 14 OF .\SRC\MCAL\GPIO\GPIO.C: can't open file 'LIB/common_macros.h'
+
+C51 COMPILATION COMPLETE.  2 WARNING(S),  3 ERROR(S)
+
+[2024-04-06 23:00:25]	[done]
+	build successfully !
+
+[2024-04-06 23:00:58]	[done]
+	build successfully !
+
+[2024-04-06 23:01:25]	[done]
+	build successfully !
+
+[2024-04-06 23:10:59]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C317 IN LINE 23 OF .\SRC\MCAL/TIMER0/timer0.h: attempt to redefine macro 'SERVOMOTOR_PIN_ID'
+*** ERROR C141 IN LINE 156 OF .\SRC\APP.C: syntax error near ';', expected ':'
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2024-04-06 23:11:25]	[done]
+	build successfully !
+
+[2024-04-06 23:21:00]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\HAL\RELAY2\relay2.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\RELAY2\relay2.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\RELAY2\relay2.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER;src/HAL/RELAY2;src/HAL/RELAY1) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\RELAY2\relay2.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 13 OF .\SRC\HAL\RELAY1\RELAY1.C: can't open file 'relay1.h'
+*** ERROR C202 IN LINE 27 OF .\SRC\HAL\RELAY1\RELAY1.C: 'RELAY_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\SRC\HAL\RELAY1\RELAY1.C: 'RELAY_PORT_ID': undefined identifier
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  2 ERROR(S)
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C202 IN LINE 27 OF .\SRC\HAL\RELAY2\RELAY2.C: 'RELAY_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\SRC\HAL\RELAY2\RELAY2.C: 'RELAY_PORT_ID': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2024-04-06 23:21:41]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\HAL\RELAY1\relay1.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\RELAY1\relay1.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\RELAY1\relay1.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER;src/HAL/RELAY2;src/HAL/RELAY1) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\RELAY1\relay1.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C318 IN LINE 13 OF .\SRC\HAL\RELAY1\RELAY1.C: can't open file 'relay1.h'
+*** ERROR C202 IN LINE 27 OF .\SRC\HAL\RELAY1\RELAY1.C: 'RELAY1_PORT_ID': undefined identifier
+*** ERROR C202 IN LINE 37 OF .\SRC\HAL\RELAY1\RELAY1.C: 'RELAY1_PORT_ID': undefined identifier
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  2 ERROR(S)
+
+[2024-04-06 23:22:38]	[done]
+	build successfully !
+
+[2024-04-06 23:23:22]	[done]
+	build successfully !
+
+[2024-04-06 23:23:55]	[done]
+	build successfully !
+
+[2024-04-06 23:25:00]	[done]
+	build successfully !
+
+[2024-04-13 18:46:18]	[done]
+	build successfully !
+
+[2024-04-13 18:53:02]	[done]
+	build successfully !
+
+[2024-04-13 18:53:57]	[done]
+	build successfully !
+
+[2024-04-13 18:54:30]	[done]
+	build successfully !
+
+[2024-04-13 19:41:41]	[done]
+	build successfully !
+
+[2024-04-13 19:43:05]	[done]
+	build successfully !
+
+[2024-04-13 19:43:12]	[done]
+	build successfully !
+
+[2024-04-13 19:52:37]	[done]
+	build successfully !
+
+[2024-04-13 19:53:06]	[done]
+	build successfully !
+
+[2024-04-18 17:34:53]	[done]
+	build successfully !
+
+[2024-04-18 17:35:08]	[done]
+	build successfully !
+
+[2024-04-18 17:37:43]	[done]
+	build successfully !
+
+[2024-04-18 17:37:53]	[done]
+	build successfully !
+
+[2024-04-18 23:24:36]	[done]
+	build successfully !
+
+[2024-04-18 23:24:46]	[done]
+	build successfully !
+
+[2024-04-18 23:33:30]	[done]
+	build successfully !
+
+[2024-04-18 23:34:42]	[done]
+	build successfully !
+
+[2024-04-18 23:44:23]	[done]
+	build successfully !
+
+[2024-04-19 00:04:50]	[done]
+	build successfully !
+
+[2024-04-19 00:05:28]	[done]
+	build successfully !
+
+[2024-04-19 00:05:39]	[done]
+	build successfully !
+
+[2024-04-19 01:14:14]	[done]
+	build successfully !
+
+[2024-04-23 18:22:06]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 37 OF .\SRC\APP.C: syntax error near '*', expected ')'
+*** ERROR C202 IN LINE 47 OF .\SRC\APP.C: 'uint8': undefined identifier
+*** ERROR C141 IN LINE 47 OF .\SRC\APP.C: syntax error near 'Password_Arr1', expected ';'
+*** ERROR C202 IN LINE 48 OF .\SRC\APP.C: 'uint8': undefined identifier
+*** ERROR C141 IN LINE 48 OF .\SRC\APP.C: syntax error near 'matching_flag', expected ';'
+*** ERROR C202 IN LINE 49 OF .\SRC\APP.C: 'uint8': undefined identifier
+*** ERROR C141 IN LINE 49 OF .\SRC\APP.C: syntax error near 'PasswordTempVar', expected ';'
+*** ERROR C202 IN LINE 50 OF .\SRC\APP.C: 'uint8': undefined identifier
+*** ERROR C141 IN LINE 50 OF .\SRC\APP.C: syntax error near 'PasswordSetFlag', expected ';'
+*** ERROR C202 IN LINE 51 OF .\SRC\APP.C: 'uint8': undefined identifier
+*** ERROR C141 IN LINE 51 OF .\SRC\APP.C: syntax error near 'MultiUsedCounter', expected ';'
+*** ERROR C202 IN LINE 53 OF .\SRC\APP.C: 'UART_9600baudRate': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  12 ERROR(S)
+
+[2024-04-23 18:22:42]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 9 OF .\SRC\APP.C: syntax error near 'void', expected 'sizeof'
+*** ERROR C141 IN LINE 11 OF .\SRC\APP.C: syntax error near 'void', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2024-04-23 18:22:55]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 12 OF .\SRC\APP.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-23 18:23:07]	[done]
+	build successfully !
+
+[2024-04-23 18:23:59]	[done]
+	build successfully !
+
+[2024-04-23 18:24:10]	[done]
+	build successfully !
+
+[2024-04-23 18:25:00]	[done]
+	build successfully !
+
+[2024-04-23 18:26:19]	[done]
+	build successfully !
+
+[2024-04-23 18:26:23]	[done]
+	build successfully !
+
+[2024-04-23 18:26:42]	[done]
+	build successfully !
+
+[2024-04-23 18:30:29]	[done]
+	build successfully !
+
+[2024-04-23 18:32:30]	[done]
+	build successfully !
+
+[2024-04-23 18:37:02]	[done]
+	build successfully !
+
+[2024-04-23 18:37:28]	[done]
+	build successfully !
+
+[2024-04-23 18:37:46]	[done]
+	build successfully !
+
+[2024-04-23 18:37:50]	[done]
+	build successfully !
+
+[2024-04-23 18:38:07]	[done]
+	build successfully !
+
+[2024-04-23 18:39:59]	[done]
+	build successfully !
+
+[2024-04-23 18:40:45]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C207 IN LINE 14 OF .\SRC\APP.C: 'servoMotor_rotate_0': declared with 'void' parameter list
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-23 18:40:52]	[done]
+	build successfully !
+
+[2024-04-23 18:41:08]	[done]
+	build successfully !
+
+[2024-04-23 18:44:18]	[done]
+	build successfully !
+
+[2024-04-23 18:45:51]	[done]
+	build successfully !
+
+[2024-04-23 18:46:47]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C193 IN LINE 15 OF .\SRC\APP.C: '=': illegal type conversion from/to 'void'
+*** ERROR C141 IN LINE 16 OF .\SRC\APP.C: syntax error near 'void', expected '__asm'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)
+
+[2024-04-23 18:47:37]	[done]
+	build successfully !
+
+[2024-04-23 18:48:41]	[done]
+	build successfully !
+
+[2024-04-23 18:49:33]	[done]
+	build successfully !
+
+[2024-04-23 18:49:52]	[done]
+	build successfully !
+
+[2024-04-24 01:34:39]	[done]
+	build successfully !
+
+[2024-04-24 01:34:59]	[done]
+	build successfully !
+
+[2024-04-24 01:35:44]	[done]
+	build successfully !
+
+[2024-04-24 01:36:24]	[done]
+	build successfully !
+
+[2024-04-24 01:38:51]	[done]
+	build successfully !
+
+[2024-04-24 01:39:43]	[done]
+	build successfully !
+
+[2024-04-24 01:40:00]	[done]
+	build successfully !
+
+[2024-04-24 01:40:05]	[done]
+	build successfully !
+
+[2024-04-24 01:40:30]	[done]
+	build successfully !
+
+[2024-04-24 01:40:55]	[done]
+	build successfully !
+
+[2024-04-24 01:41:42]	[done]
+	build successfully !
+
+[2024-04-24 01:42:59]	[done]
+	build successfully !
+
+[2024-04-24 01:43:55]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 23 OF .\SRC\APP.C: syntax error near 'unsigned', expected '__asm'
+*** ERROR C202 IN LINE 23 OF .\SRC\APP.C: 'readed': undefined identifier
+*** ERROR C202 IN LINE 27 OF .\SRC\APP.C: 'readed': undefined identifier
+*** ERROR C202 IN LINE 28 OF .\SRC\APP.C: 'readed': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2024-04-24 01:44:03]	[done]
+	build successfully !
+
+[2024-04-24 01:44:16]	[done]
+	build successfully !
+
+[2024-04-24 01:44:35]	[done]
+	build successfully !
+
+[2024-04-24 01:44:48]	[done]
+	build successfully !
+
+[2024-04-24 01:45:14]	[done]
+	build successfully !
+
+[2024-04-24 01:45:33]	[done]
+	build successfully !
+
+[2024-04-24 01:45:51]	[done]
+	build successfully !
+
+[2024-04-24 01:57:14]	[done]
+	build successfully !
+
+[2024-04-24 01:58:14]	[done]
+	build successfully !
+
+[2024-04-24 02:00:59]	[done]
+	build successfully !
+
+[2024-04-24 02:01:16]	[done]
+	build successfully !
+
+[2024-04-24 02:02:14]	[done]
+	build successfully !
+
+[2024-04-24 03:15:05]	[done]
+	build successfully !
+
+[2024-04-24 03:17:40]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\APP.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\APP.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\APP.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\APP.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 37 OF .\SRC\APP.C: syntax error near '', expected '__asm'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-24 03:17:49]	[done]
+	build successfully !
+
+[2024-04-24 03:20:06]	[done]
+	build successfully !
+
+[2024-04-24 03:24:20]	[done]
+	build successfully !
+
+[2024-04-24 03:24:42]	[done]
+	build successfully !
+
+[2024-04-24 04:26:36]	[done]
+	build successfully !
+
+[2024-04-24 04:27:23]	[done]
+	build successfully !
+
+[2024-04-24 04:29:57]	[done]
+	build successfully !
+
+[2024-04-24 04:33:02]	[done]
+	build successfully !
+
+[2024-04-24 04:37:26]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\HAL\SERVO\servomotor.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\HAL\SERVO\servomotor.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\HAL\SERVO\servomotor.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\HAL\SERVO\servomotor.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C317 IN LINE 23 OF .\SRC\HAL\SERVO\../../MCAL/TIMER0/timer0.h: attempt to redefine macro 'SERVOMOTOR_PIN_ID'
+*** ERROR C202 IN LINE 23 OF .\SRC\HAL\SERVO\SERVOMOTOR.C: 'SERVOMOTOR_PIN_ID': undefined identifier
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2024-04-24 04:37:50]	[done]
+	build successfully !
+
+[2024-04-24 12:04:09]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\test.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\test.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\test.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\test.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** WARNING C317 IN LINE 25 OF .\SRC\HAL/SERVO/servomotor.h: attempt to redefine macro 'SERVOMOTOR_PIN_ID'
+*** ERROR C141 IN LINE 42 OF .\SRC\TEST.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2024-04-24 12:05:41]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\test.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\test.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\test.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\test.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C141 IN LINE 42 OF .\SRC\TEST.C: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-24 12:05:52]	[done]
+	build successfully !
+
+[2024-04-24 12:06:13]	[done]
+	build successfully !
+
+[2024-04-24 12:06:36]	[done]
+	build successfully !
+
+[2024-04-24 12:06:51]	[done]
+	build successfully !
+
+[2024-04-24 12:07:29]	[done]
+	build successfully !
+
+[2024-04-24 12:08:18]	compilation failed at : "d:\Studies\6th Semister\Embedded Systems\Project\VSCode WS\Control_Unit\src\test.c", exit code: 2
+command: 
+  "C:\Keil_v5\C51\BIN\C51.exe" .\src\test.c OMF2 TABS(4) CODE NOCOND SYMBOLS PRINT(.\build\Release\.obj\src\test.lst) INCDIR(C:/Keil_v5/C51/INC;src;src/MCAL/USART;src/MCAL/TIMER0;src/MCAL/I2C;src/MCAL/GPIO;src/MCAL/DELAY;src/LIB;src/HAL/SERVO;src/HAL/RELAY2;src/HAL/RELAY1;src/HAL/LCD;src/HAL/EEPROM;src/HAL/BUZZER) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) SMALL ROM(LARGE) OBJECT(.\build\Release\.obj\src\test.o)
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.60.7.0 - SN: K1DZC-T4F4QC
+COPYRIGHT Copyright (C) 2012 - 2022 ARM Limited or its Affiliates. All rights reserved.
+*** ERROR C211 IN LINE 38 OF .\SRC\TEST.C: call not to a function
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2024-04-24 12:08:34]	[done]
+	build successfully !
+
+[2024-04-24 12:10:38]	[done]
+	build successfully !
+
+[2024-04-24 12:11:31]	[done]
+	build successfully !
+
+[2024-04-24 12:16:34]	[done]
+	build successfully !
+
+[2024-04-24 12:16:59]	[done]
+	build successfully !
+
+[2024-04-24 12:17:16]	[done]
+	build successfully !
+
+[2024-04-24 12:17:45]	[done]
+	build successfully !
+
+[2024-04-24 12:18:06]	[done]
+	build successfully !
+
+[2024-04-24 12:18:20]	[done]
+	build successfully !
+
+[2024-04-24 12:19:50]	[done]
+	build successfully !
+
+[2024-04-24 12:20:39]	[done]
+	build successfully !
+
